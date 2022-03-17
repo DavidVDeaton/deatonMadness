@@ -3,7 +3,7 @@
     <head>
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Deaton March Madness 2022</title>
+        <title>Deaton March Madness 2021</title>
         <link rel = "stylesheet" href ="style.css">
         <link rel = "stylesheet" href ="teamstyle.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,292 +14,152 @@
     <body>
 
         <!-- Navigation Bar -->
-        <!-- <nav class = "navigation">
-            <a href="index.html" class="cpu">Leaders</a>
-            <a href="schedule.html" class="cpu">Fri. 1st Rd</a>
-            <a href="saturday.html" class="cpu">Sat. 1st Rd</a>
-            <a href="sunday.html" class="cpu">Sunday, Second Round</a>
-            <a href="monday.html" class="cpu">Monday, Second Round</a>
-        </nav> -->
+        <nav class = "navigation">
+            <a href="index.html">Leaderboard</a>
+            <a href="day1.html">Round of 64</a>
+        </nav>
 
         <!-- Header -->
-        <header class = "heading"></header>
-            <h1>Thursday, First Round</h1>
+        <header class = "heading">
+            <h1>Leaderboard</h1>
         </header>
 
         <!-- Main Section -->
         <main>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="Michigan" class="border winner">
-                        <div class="center">
-                            <h2 id="team11s"></h2>
-                            <div class="david luke nick miriam tim ethan hyrum christine april sabrina caleb noah paige"></div>
-                        </div>
-                    </div>
-                    <div id="ColoradoSt" class="border loser">
-                        <div class="center">
-                            <h2 id="team6s"></h2>
-                            <div class="dennis susan rachel dave levi reed matt shea"></div>
-                        </div>
-                    </div>
+                                   
+            <div class="gm20">
+                <div class="scores">
+                    <div class="susan"></div>
+                    <div><h2>Susan</h2></div>
+                    <div><h2 id="susanScore"></h2></div>
                 </div>
             </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="SouthDakotaSt" class="border loser">
-                        <div class="center">
-                            <h2 id="team13m"></h2>
-                            <div class="luke nick ethan dave tim caleb paige reed april sabrina"></div>
-                        </div>
-                    </div>
-                    <div id="Providence" class="border winner">
-                        <div class="center">
-                            <h2 id="team4m"></h2>
-                            <div class="david dennis miriam rachel susan christine shea matt levi hyrum noah"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="Memphis" class="border">
-                        <div class="center">
-                            <h2 id="team9w"></h2>
-                            <div class="dennis nick levi tim miriam ethan rachel reed shea sabrina april paige noah hyrum caleb"></div>
-                        </div>
-                    </div>
-                    <div id="BoiseSt" class="border">
-                        <div class="center">
-                            <h2 id="team8w"></h2>
-                            <div class="david susan luke dave christine matt"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="NorfolkSt" class="border">
-                        <div class="center">
-                            <h2 id="team16e"></h2>
-                            <div class=""></div>
-                        </div>
-                    </div>
-                    <div id="Baylor" class="border">
-                        <div class="center">
-                            <h2 id="team1e"></h2>
-                            <div class="david reed dave miriam ethan rachel tim shea dennis christine april sabrina caleb matt noah paige susan luke nick levi hyrum"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="Longwood" class="border">
-                        <div class="center">
-                            <h2 id="team14s"></h2>
-                            <div class=""></div>
-                        </div>
-                    </div>
-                    <div id="Tennessee" class="border">
-                        <div class="center">
-                            <h2 id="team3s"></h2>
-                            <div class="matt shea tim miriam ethan rachel christine dave reed sabrina david dennis april susan caleb noah paige luke nick levi hyrum"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="Richmond" class="border">
-                        <div class="center">
-                            <h2 id="team12m"></h2>
-                            <div class="christine rachel"></div>
-                        </div>
-                    </div>
-                    <div id="Iowa" class="border">
-                        <div class="center">
-                            <h2 id="team5m"></h2>
-                            <div class="matt reed tim ethan miriam dave shea sabrina david dennis april caleb noah susan luke paige nick levi hyrum"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="GeorgiaSt" class="border">
-                        <div class="center">
-                            <h2 id="team16w"></h2>
-                            <div class="reed"></div>
-                        </div>
-                    </div>
-                    <div id="Gonzaga" class="border">
-                        <div class="center">
-                            <h2 id="team1w"></h2>
-                            <div class="david dennis sabrina christine miriam ethan noah dave matt april hyrum susan luke rachel nick paige levi shea caleb tim"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="Marquette" class="border">
-                        <div class="center">
-                            <h2 id="team9e"></h2>
-                            <div class="susan noah shea rachel reed miriam"></div>
-                        </div>
-                    </div>
-                    <div id="NorthCarolina" class="border">
-                        <div class="center">
-                            <h2 id="team8e"></h2>
-                            <div class="david tim dennis paige ethan hyrum matt april luke dave nick sabrina christine levi caleb"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="NewMexicoSt" class="border">
-                        <div class="center">
-                            <h2 id="team12w"></h2>
-                            <div class="david levi caleb rachel"></div>
-                        </div>
-                    </div>
-                    <div id="Connecticut" class="border">
-                        <div class="center">
-                            <h2 id="team5w"></h2>
-                            <div class="dennis hyrum ethan christine reed paige shea miriam tim noah sabrina susan matt luke nick april dave"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="StPeters" class="border">
-                        <div class="center">
-                            <h2 id="team15e"></h2>
-                            <div class=""></div>
-                        </div>
-                    </div>
-                    <div id="Kentucky" class="border">
-                        <div class="center">
-                            <h2 id="team2e"></h2>
-                            <div class="david dennis reed sabrina christine noah tim miriam susan hyrum matt april luke dave caleb rachel paige ethan shea nick levi"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="Indiana" class="border">
-                        <div class="center">
-                            <h2 id="team12e"></h2>
-                            <div class="levi rachel sabrina caleb christine reed ethan"></div>
-                        </div>
-                    </div>
-                    <div id="StMarys" class="border">
-                        <div class="center">
-                            <h2 id="team5e"></h2>
-                            <div class="david dennis miriam shea tim april noah susan hyrum matt dave paige luke nick"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="Creighton" class="border">
-                        <div class="center">
-                            <h2 id="team9m"></h2>
-                            <div class="david dave tim sabrina rachel christine dennis reed shea noah april luke"></div>
-                        </div>
-                    </div>
-                    <div id="SDSU" class="border">
-                        <div class="center">
-                            <h2 id="team8m"></h2>
-                            <div class="susan caleb nick paige ethan matt levi miriam hyrum"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             
-            <div class="gm">
-                <div class="game">
-                    <div id="Vermont" class="border">
-                        <div class="center">
-                            <h2 id="team13w"></h2>
-                            <div class="luke matt ethan sabrina christine"></div>
-                        </div>
-                    </div>
-                    <div id="Arkansas" class="border">
-                        <div class="center">
-                            <h2 id="team4w"></h2>
-                            <div class="david dennis rachel shea paige april miriam noah hyrum tim susan caleb dave reed nick levi"></div>
-                        </div>
-                    </div>
+            <div class="gm20">
+                <div class="scores">
+                    <div class="reed"></div>
+                    <div><h2>Reed</h2></div>
+                    <div><h2 id="reedScore"></h2></div>
                 </div>
             </div>
 
-            <div class="gm">
-                <div class="game">
-                    <div id="SanFrancisco" class="border">
-                        <div class="center">
-                            <h2 id="team10e"></h2>
-                            <div class="david nick rachel sabrina caleb christine shea noah paige dave tim"></div>
-                        </div>
-                    </div>
-                    <div id="MurraySt" class="border">
-                        <div class="center">
-                            <h2 id="team7e"></h2>
-                            <div class="dennis susan matt reed luke ethan miriam april hyrum levi"></div>
-                        </div>
-                    </div>
+            <div class="gm20">
+                <div class="scores">
+                    <div class="shea"></div>
+                    <div><h2>Shea</h2></div>
+                    <div><h2 id="sheaScore"></h2></div>
+                </div>
+            </div>
+         
+            <div class="gm20">
+                <div class="scores">
+                    <div class="suzy"></div>
+                    <div><h2>Suzy</h2></div>
+                    <div><h2 id="suzyScore"></h2></div>
+                </div>
+            </div> 
+                                                                      
+            <div class="gm20">
+                <div class="scores">
+                    <div class="hyrum"></div>
+                    <div><h2>Hyrum</h2></div>
+                    <div><h2 id="hyrumScore"></h2></div>
+                </div>
+            </div>
+                                        
+            <div class="gm20">
+                <div class="scores">
+                    <div class="levi"></div>
+                    <div><h2>Levi</h2></div>
+                    <div><h2 id="leviScore"></h2></div>
+                </div>
+            </div> 
+                   
+            <div class="gm20">
+                <div class="scores">
+                    <div class="noah"></div>
+                    <div><h2>Noah</h2></div>
+                    <div><h2 id="noahScore"></h2></div>
+                </div>
+            </div>
+                                               
+            <div class="gm20">
+                <div class="scores">
+                    <div class="paige"></div>
+                    <div><h2>Paige</h2></div>
+                    <div><h2 id="paigeScore"></h2></div>
+                </div>
+            </div>
+                                                           
+            <div class="gm20">
+                <div class="scores">
+                    <div class="matt"></div>
+                    <div><h2>Matt</h2></div>
+                    <div><h2 id="mattScore"></h2></div>
+                </div>
+            </div>
+                                                            
+            <div class="gm20">
+                <div class="scores">
+                    <div class="dave"></div>
+                    <div><h2>Dave</h2></div>
+                    <div><h2 id="daveScore"></h2></div>
+                </div>
+            </div>
+            
+            <div class="gm20">
+                <div class="scores">
+                    <div class="katie"></div>
+                    <div><h2>Katie</h2></div>
+                    <div><h2 id="katieScore"></h2></div>
+                </div>
+            </div>  
+
+            <div class="gm20">
+                <div class="scores">
+                    <div class="april"></div>
+                    <div><h2>April</h2></div>
+                    <div><h2 id="aprilScore"></h2></div>
+                </div>
+            </div>
+            
+            <div class="gm20">
+                <div class="scores">
+                    <div class="rachel"></div>
+                    <div><h2>Rachel</h2></div>
+                    <div><h2 id="rachelScore"></h2></div>
+                </div>
+            </div>
+              
+            <div class="gm20">
+                <div class="scores">
+                    <div class="david"></div>
+                    <div><h2>David</h2></div>
+                    <div><h2 id="davidScore"></h2></div>
                 </div>
             </div>
 
-            <div class="gm">
-                <div class="game">
-                    <div id="Akron" class="border">
-                        <div class="center">
-                            <h2 id="team13e"></h2>
-                            <div class=""></div>
-                        </div>
-                    </div>
-                    <div id="UCLA" class="border">
-                        <div class="center">
-                            <h2 id="team4e"></h2>
-                            <div class="tim david sabrina christine dennis noah rachel reed paige april matt caleb hyrum dave susan luke shea nick ethan miriam levi"></div>
-                        </div>
-                    </div>
+            <div class="gm20">
+                <div class="scores">
+                    <div class="dennis"></div>
+                    <div><h2>Dennis</h2></div>
+                    <div><h2 id="dennisScore"></h2></div>
                 </div>
             </div>
-
-            <div class="gm">
-                <div class="game">
-                    <div id="TexasSouthern" class="border">
-                        <div class="center">
-                            <h2 id="team16m"></h2>
-                            <div class="reed"></div>
-                        </div>
-                    </div>
-                    <div id="Kansas" class="border">
-                        <div class="center">
-                            <h2 id="team1m"></h2>
-                            <div class="david tim miriam sabrina christine paige caleb ethan noah dennis susan matt hyrum rachel april dave luke shea nick levi"></div>
-                        </div>
-                    </div>
+                     
+            <div class="gm20">
+                <div class="scores">
+                    <div class="caleb"></div>
+                    <div><h2>Caleb</h2></div>
+                    <div><h2 id="calebScore"></h2></div>
+                </div>
+            </div>
+            
+            <div class="gm20">
+                <div class="scores">
+                    <div class="ethan"></div>
+                    <div><h2>Ethan</h2></div>
+                    <div><h2 id="ethanScore"></h2></div>
                 </div>
             </div>
                 
@@ -308,7 +168,7 @@
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="teams.js"></script>
+        <script src="scores.js"></script>
         <script src="players.js"></script>
 
     </body>

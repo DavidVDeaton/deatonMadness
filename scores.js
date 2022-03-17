@@ -1,69 +1,230 @@
-var participants = 20;
+var participants = 21;
 
+    // Game 1
+    var gm1 = "";
+    var gm1Picks = 11;
+    var colost1 = 0;
+    var mich1 = 0;
+    if (gm1="colost") {
+        colost1 = participants/gm1Picks;
+    }
+    else if (gm1="mich"){
+        mich1 = participants/(participants-gm1Picks);
+    }
+    else {
+        colost1 = 0;
+        mich1 = 0;
+    }
 
-//     // Game 1
-//     var gm1 = "";
-//     var gm1Picks = 19;
-//     var colost1 = 0;
-//     var mich1 = 0;
-//     if (gm1="colost") {
-//         colost1 = participants/gm1Picks;
-//     }
-//     else if (gm1="mich"){
-//         mich1 = participants/(participants-gm1Picks);
-//     }
-//     else {
-//         colost1 = 0;
-//         mich1 = 0;
-//     }
+    console.log(colost1, mich1);
 
-// var gm2 = "";
-// var gm2Picks = 19;
+    // Game 2
+    var gm2 = "prov";
+    var gm2Picks = 8;
+    var prov1 = 0;
+    var sdakst1 = 0;
+    if (gm2="prov") {
+        prov1 = participants/gm2Picks;
+    }
+    else if (gm2="sdakst"){
+        sdakst1 = participants/(participants-gm2Picks);
+    }
+    else {
+        prov1 = 0;
+        sdakst1 = 0;
+    }
 
-// var gm3 = "";
-// var gm3Picks = 19;
-// var gm4 = "";
-// var gm4Picks = 19;
-// var gm5 = "";
-// var gm5Picks = 19;
-// var gm6 = "";
-// var gm6Picks = 19;
-// var gm7 = "";
-// var gm7Picks = 19;
-// var gm8 = "";
-// var gm8Picks = 19;
-// var gm9 = "";
-// var gm9Picks = 19;
-// var gm10 = "";
-// var gm10icks = 19;
-// var gm11 = "";
-// var gm11Picks = 19;
-// var gm12 = "";
-// var gm12Picks = 19;
-// var gm1 = "";
-// var gm1Picks = 19;
-// var gm2 = "";
-// var gm2Picks = 19;
-// var gm3 = "";
-// var gm3Picks = 19;
-// var gm4 = "";
-// var gm4Picks = 19;
-// var gm5 = "";
-// var gm5Picks = 19;
-// var gm6 = "";
-// var gm6Picks = 19;
-// var gm7 = "";
-// var gm7Picks = 19;
-// var gm8 = "";
-// var gm8Picks = 19;
-// var gm9 = "";
-// var gm9Picks = 19;
-// var gm10 = "";
-// var gm10icks = 19;
-// var gm11 = "";
-// var gm11Picks = 19;
-// var gm12 = "";
-// var gm12Picks = 19;
+    // Game 3
+    var gm3 = "";
+    var gm3Picks = 6;
+    var boise1 = 0;
+    var mem1 = 0;
+    if (gm3="boise") {
+        boise1 = participants/gm3Picks;
+    }
+    else if (gm3="mem"){
+        mem1 = participants/(participants-gm3Picks);
+    }
+    else {
+        boise1 = 0;
+        mem1 = 0;
+    }
+
+    // Game 4
+    var gm4 = "";
+    var gm4Picks = 21;
+    var bay1 = 0;
+    var norst1 = 0;
+    if (gm4="bay") {
+        bay1 = participants/gm4Picks;
+    }
+    // else if (gm4="norst"){
+    //     norst1 = participants/(participants-gm4Picks);
+    // }
+    else {
+        bay1 = 0;
+        norst1 = 0;
+    }
+
+    // Game 5
+    var gm5 = "";
+    var gm5Picks = 21;
+    var tenn1 = 0;
+    var longw1 = 0;
+    if (gm5="tenn") {
+        tenn1 = participants/gm5Picks;
+    }
+    // else if (gm5="longw"){
+    //     longw1 = participants/(participants-gm5Picks);
+    // }
+    else {
+        tenn1 = 0;
+        longw1 = 0;
+    }
+
+    // Game 6
+    var gm6 = "";
+    var gm6Picks = 19;
+    var iowa1 = 0;
+    var rich1 = 0;
+    if (gm6="iowa") {
+        iowa1 = participants/gm6Picks;
+    }
+    else if (gm6="rich"){
+        rich1 = participants/(participants-gm6Picks);
+    }
+    else {
+        iowa1 = 0;
+        rich1 = 0;
+    }
+
+    // Game 7
+    var gm7 = "";
+    var gm7Picks = 20;
+    var zaga1 = 0;
+    var geost1 = 0;
+    if (gm7="zaga") {
+        zaga1 = participants/gm7Picks;
+    }
+    else if (gm7="geost"){
+        geost1 = participants/(participants-gm7Picks);
+    }
+    else {
+        zaga1 = 0;
+        geost1 = 0;
+    }
+
+    // Game 8
+    var gm8 = "";
+    var gm8Picks = 6;
+    var marq1 = 0;
+    var unc1 = 0;
+    if (gm8="marq") {
+        marq1 = participants/gm8Picks;
+    }
+    else if (gm8="unc"){
+        unc1 = participants/(participants-gm8Picks);
+    }
+    else {
+        marq1 = 0;
+        unc1 = 0;
+    }
+
+    // Game 9
+    var gm9 = "";
+    var gm9Picks = 16;
+    var conn1 = 0;
+    var nmst1 = 0;
+    if (gm9="conn") {
+        conn1 = participants/gm9Picks;
+    }
+    else if (gm9="nmst"){
+        nmst1 = participants/(participants-gm9Picks);
+    }
+    else {
+        conn1 = 0;
+        nmst1 = 0;
+    }
+
+    // Game 10
+    var gm10 = "";
+    var gm10Picks = 21;
+    var uk1 = 0;
+    var stpete1 = 0;
+    if (gm10="uk") {
+        uk1 = participants/gm10Picks;
+    }
+    // else if (gm10="stpete"){
+    //     stpete1 = participants/(participants-gm10Picks);
+    // }
+    else {
+        uk1 = 0;
+        stpete1 = 0;
+    }
+
+    // Game 11
+    var gm11 = "";
+    var gm11Picks = 14;
+    var stmarys1 = 0;
+    var ind1 = 0;
+    if (gm11="stmarys") {
+        stmarys1 = participants/gm11Picks;
+    }
+    else if (gm11="ind"){
+        ind1 = participants/(participants-gm11Picks);
+    }
+    else {
+        stmarys1 = 0;
+        ind1 = 0;
+    }
+
+    // Game 12
+    var gm12 = "";
+    var gm12Picks = 9;
+    var sdsu1 = 0;
+    var creight1 = 0;
+    if (gm12="sdsu") {
+        sdsu1 = participants/gm12Picks;
+    }
+    else if (gm12="creight"){
+        creight1 = participants/(participants-gm12Picks);
+    }
+    else {
+        sdsu1 = 0;
+        creight1 = 0;
+    }
+
+    // Game 13
+    var gm13 = "";
+    var gm13Picks = 9;
+    var ark1 = 0;
+    var verm1 = 0;
+    if (gm13="ark") {
+        ark1 = participants/gm13Picks;
+    }
+    else if (gm13="verm"){
+        verm1 = participants/(participants-gm13Picks);
+    }
+    else {
+        ark1 = 0;
+        verm1 = 0;
+    }
+
+    // Game 14
+    var gm14 = "";
+    var gm14Picks = 10;
+    var murr1 = 0;
+    var sf1 = 0;
+    if (gm14="murr") {
+        murr1 = participants/gm14Picks;
+    }
+    else if (gm14="sf"){
+        sf1 = participants/(participants-gm14Picks);
+    }
+    else {
+        murr1 = 0;
+        sf1 = 0;
+    }
 
 //     // West Round 1
 
