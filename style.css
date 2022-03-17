@@ -1,0 +1,146 @@
+body {
+    display: grid;
+    place-items: center;
+    background-color: #191919;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: seashell;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    border-bottom: solid;
+}
+
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.small-circle {
+    border-radius:100%;
+    width:60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center top;
+    border: 3px solid rgba(0,0,0,.1);
+    justify-self: start;
+}
+
+.med-circle {
+    border-radius:100%;
+    width:80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center top;
+    border: 3px solid rgba(0,0,0,.1);
+    justify-self: start;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+h2 {
+    display: grid;
+    place-items: center;
+    margin-top: 0px;
+    background-color: rgba(0,0,0,.4);
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.hidden {
+    display: block;
+}
+
+.gm {
+    display: block;
+    padding: 8px;
+    width: 92%;
+    place-items: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(0,0,0,.4);
+}
+
+.scores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.border {
+    border: 1.5px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.winner {
+    border-color: green;
+}
+
+.loser {
+    border-color: red;
+}
+
+@media only screen and (max-width:1320px) {
+
+    main {
+        display: grid;
+        grid-template-columns: none;
+    }
+}
+
+@media only screen and (max-width:750px) {
+
+    .med-circle {
+        border-radius:100%;
+        width:80px;
+        height: 80px;
+        object-fit: cover;
+        object-position: center top;
+        border: 3px solid rgba(0,0,0,.1);
+        justify-self: start;
+    }
+
+    .game {
+        display: block;
+        column-width: 100%;
+        border: solid;
+    }
+
+    .border {
+        border: none;
+    }
+
+    .winner {
+        background-color: rgba(11, 124, 30, 0.3);
+    }
+    
+    .loser {
+        background-color:rgba(124, 3, 3, 0.3);
+    }
+}
