@@ -84,7 +84,7 @@ h2 {
 h3 {
     display: grid;
     place-items: center;
-    margin-top: 0px;
+    margin: 0px;
     padding: 5px 15px;
     border-radius: 3px;
     font-size: 24px;
@@ -110,6 +110,7 @@ h3 {
 .scores {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 2px 0px;
 }
 
 .border {
@@ -130,6 +131,19 @@ h3 {
 .loser {
     border-color: red;
 }
+
+.gold {
+    background-color: rgba(212, 175, 55, 0.5);
+}
+    
+.silver {
+    background-color:rgba(187, 194, 204, 0.5);
+}
+
+.bronze {
+    background-color: rgba(128, 74, 0, .5);
+}
+    
 
 @media only screen and (max-width:1320px) {
 
