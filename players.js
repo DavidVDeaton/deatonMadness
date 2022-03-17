@@ -151,6 +151,8 @@ $(".luke").append(luke);
 $(".tim").append(tim);
 $(".christine").append(christine);
 $(".miriam").append(miriam);
+$(".sabrina").append(sabrina);
+
 
 
 
