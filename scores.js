@@ -109,8 +109,8 @@ var participants = 21;
     console.log(rich1);
 
     // Game 7
-    var gm7 = "";
-    var gm7Picks = 20;
+    var gm7 = "zaga";
+    var gm7Picks = 21;
     var zaga1 = 0;
     var geost1 = 0;
     if (gm7==="zaga") {
@@ -124,8 +124,10 @@ var participants = 21;
         geost1 = 0;
     }
 
+    console.log(zaga1);
+
     // Game 8
-    var gm8 = "";
+    var gm8 = "unc";
     var gm8Picks = 6;
     var marq1 = 0;
     var unc1 = 0;
@@ -139,6 +141,8 @@ var participants = 21;
         marq1 = 0;
         unc1 = 0;
     }
+
+    console.log(unc1);
 
     // Game 9
     var gm9 = "";
