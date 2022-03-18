@@ -241,7 +241,7 @@ var participants = 22;
     }
 
     // Game 15
-    var gm15 = "";
+    var gm15 = "ucla";
     var gm15Picks = 22;
     var ucla1 = 0;
     var akron1 = 0;
