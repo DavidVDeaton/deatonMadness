@@ -385,7 +385,7 @@ var participants = 22;
     }
 
     // Game 24
-    var gm24 = "";
+    var gm24 = "tex";
     var gm24Picks = 10;
     var tex1 = 0;
     var vt1 = 0;
