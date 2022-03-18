@@ -193,7 +193,7 @@ var participants = 22;
     }
 
     // Game 12
-    var gm12 = "";
+    var gm12 = "creight";
     var gm12Picks = 10;
     var sdsu1 = 0;
     var creight1 = 0;
