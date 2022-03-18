@@ -8,7 +8,7 @@ $("#team7w").text("7 Michigan St.");
 $("#team8w").text("8 Boise St.");
 $("#team9w").text("9 Memphis");
 $("#team10w").text("10 Davidson");
-$("#team11w").text("11 Rutgers/ND");
+$("#team11w").text("11 Notre Dame");
 $("#team12w").text("12 New Mexico St.");
 $("#team13w").text("13 Vermont");
 $("#team14w").text("14 Montana St.");

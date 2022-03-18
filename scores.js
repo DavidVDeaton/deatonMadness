@@ -209,7 +209,7 @@ var participants = 22;
     }
 
     // Game 13
-    var gm13 = "";
+    var gm13 = "ark";
     var gm13Picks = 17;
     var ark1 = 0;
     var verm1 = 0;
