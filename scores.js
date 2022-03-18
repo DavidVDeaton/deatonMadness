@@ -305,8 +305,8 @@ var participants = 22;
     }
 
     // Game 19
-    var gm19 = "";
-    var gm19Picks = 20;
+    var gm19 = "textech";
+    var gm19Picks = 21;
     var textech1 = 0;
     var montst1 = 0;
     if (gm19==="textech") {
@@ -321,8 +321,8 @@ var participants = 22;
     }
 
     // Game 20
-    var gm20 = "";
-    var gm20Picks = 20;
+    var gm20 = "pur";
+    var gm20Picks = 19;
     var pur1 = 0;
     var yale1 = 0;
     if (gm20==="pur") {
@@ -338,7 +338,7 @@ var participants = 22;
 
     // Game 21
     var gm21 = "";
-    var gm21Picks = 20;
+    var gm21Picks = 21;
     var nova1 = 0;
     var del1 = 0;
     if (gm21==="nova") {
@@ -354,7 +354,7 @@ var participants = 22;
 
     // Game 22
     var gm22 = "";
-    var gm22Picks = 20;
+    var gm22Picks = 10;
     var usc1 = 0;
     var miami1 = 0;
     if (gm22==="usc") {
@@ -370,7 +370,7 @@ var participants = 22;
 
     // Game 23
     var gm23 = "";
-    var gm23Picks = 20;
+    var gm23Picks = 13;
     var bama1 = 0;
     var nd1 = 0;
     if (gm23==="bama") {
@@ -386,7 +386,7 @@ var participants = 22;
 
     // Game 24
     var gm24 = "";
-    var gm24Picks = 20;
+    var gm24Picks = 10;
     var tex1 = 0;
     var vt1 = 0;
     if (gm24==="tex") {
@@ -402,7 +402,7 @@ var participants = 22;
     
     // Game 25
     var gm25 = "";
-    var gm25Picks = 20;
+    var gm25Picks = 17;
     var ill1 = 0;
     var chat1 = 0;
     if (gm25==="ill") {
@@ -418,15 +418,15 @@ var participants = 22;
 
     // Game 26
     var gm26 = "";
-    var gm26Picks = 20;
+    var gm26Picks = 22;
     var duke1 = 0;
     var csuf1 = 0;
     if (gm26==="duke") {
         duke1 = participants/gm26Picks;
     }
-    else if (gm26==="csuf"){
-        csuf1 = participants/(participants-gm26Picks);
-    }
+    // else if (gm26==="csuf"){
+    //     csuf1 = participants/(participants-gm26Picks);
+    // }
     else {
         duke1 = 0;
         csuf1 = 0;
@@ -434,7 +434,7 @@ var participants = 22;
 
     // Game 27
     var gm27 = "";
-    var gm27Picks = 20;
+    var gm27Picks = 9;
     var lsu1 = 0;
     var iowast1 = 0;
     if (gm27==="lsu") {
@@ -450,15 +450,15 @@ var participants = 22;
 
     // Game 28
     var gm28 = "";
-    var gm28Picks = 20;
+    var gm28Picks = 22;
     var az1 = 0;
     var wrst1 = 0;
     if (gm28==="az") {
         az1 = participants/gm28Picks;
     }
-    else if (gm28==="wrst"){
-        wrst1 = participants/(participants-gm28Picks);
-    }
+    // else if (gm28==="wrst"){
+    //     wrst1 = participants/(participants-gm28Picks);
+    // }
     else {
         az1 = 0;
         wrst1 = 0;
@@ -466,7 +466,7 @@ var participants = 22;
 
     // Game 29
     var gm29 = "";
-    var gm29Picks = 20;
+    var gm29Picks = 17;
     var hou1 = 0;
     var uab1 = 0;
     if (gm29==="hou") {
@@ -482,7 +482,7 @@ var participants = 22;
 
     // Game 30
     var gm30 = "";
-    var gm30Picks = 20;
+    var gm30Picks = 7;
     var michst1 = 0;
     var david1 = 0;
     if (gm30==="michst") {
@@ -498,7 +498,7 @@ var participants = 22;
 
     // Game 31
     var gm31 = "";
-    var gm31Picks = 20;
+    var gm31Picks = 21;
     var wisc1 = 0;
     var col1 = 0;
     if (gm31==="wisc") {
@@ -514,7 +514,7 @@ var participants = 22;
 
     // Game 32
     var gm32 = "";
-    var gm32Picks = 20;
+    var gm32Picks = 7;
     var seton1 = 0;
     var tcu1 = 0;
     if (gm32==="seton") {
