@@ -537,6 +537,9 @@ var davidScore =
     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
+                        // Round 2
+    // + zaga2 + nmst2 + tenn2 + bay2 + ucla2 + kan2
+    // + textech2 + michst2 + az2 + hou2 + ohiost2 + tex2 + aub2 + iowast2
 ;
 
 var daveScore =  
@@ -548,6 +551,9 @@ var daveScore =
     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
+                        // Round 2
+    // + zaga2 + ark2 + tenn2 + bay2 + stmarys2 + kan2
+    // + textech2 + duke2 + az2 + hou2 + nova2 + pur2 + miami2 + wisc2
 ;
 
 var aprilScore = 
@@ -559,6 +565,9 @@ var aprilScore =
     bay1 + unc1 + stmarys1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + miami1 + aub1
+                        // Round 2
+    // + zaga2 + tenn2 + bay2 + stmarys2 + kan2 + murr2
+    // + textech2 + duke2 + tcu2 + ill2 + nova2 + vt2 + aub2 + wisc2
 ;
 
 var hyrumScore = 

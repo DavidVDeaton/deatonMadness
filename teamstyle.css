@@ -14,6 +14,14 @@
     background-position-y: center;
 }
 
+#SetonHall {
+    background-image: url("assets/seton.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #Richmond {
     background-image: url("assets/richmond.png");
     background-repeat: no-repeat;
@@ -22,8 +30,56 @@
     background-position-y: center;
 }
 
+#Delaware {
+    background-image: url("assets/delaware.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Chattanooga {
+    background-image: url("assets/chat.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Yale {
+    background-image: url("assets/yale.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Davidson {
+    background-image: url("assets/davidson.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#NotreDame {
+    background-image: url("assets/nd.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #StPeters {
     background-image: url("assets/stpete.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Miami {
+    background-image: url("assets/miami.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -134,6 +190,22 @@
     background-position-y: center;
 }
 
+#CSUFullerton {
+    background-image: url("assets/csuf.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Illinois {
+    background-image: url("assets/illinois.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #BoiseSt {
     background-image: url("assets/boisest.png");
     background-repeat: no-repeat;
@@ -142,8 +214,40 @@
     background-position-y: center;
 }
 
+#JacksonvilleSt {
+    background-image: url("assets/jackst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Auburn {
+    background-image: url("assets/auburn.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#MontanaSt {
+    background-image: url("assets/montst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #SouthDakotaSt {
     background-image: url("assets/sodakotast.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#MichiganSt {
+    background-image: url("assets/michst.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -164,6 +268,14 @@
     background-size: 130px 130px;
     background-position-x: center;  
     background-position-y: center;  
+}
+
+#TCU {
+    background-image: url("assets/tcu.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 #Iowa {
@@ -230,11 +342,27 @@
     background-position-y: center;
 }
 
+#Duke {
+    background-image: url("assets/duke.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #Houston {
     background-image: url("assets/houston.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;    
+    background-position-y: center;
+}
+
+#IowaSt {
+    background-image: url("assets/isu.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
     background-position-y: center;
 }
 
@@ -270,12 +398,36 @@
     background-position-y: center;
 }
 
+#Arizona {
+    background-image: url("assets/arizona.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#UAB {
+    background-image: url("assets/uab.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #VirginiaTech {
     background-image: url("assets/vt.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;   
     background-position-y: center; 
+}
+
+#WrightSt {
+    background-image: url("assets/wrst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 #Colgate {
