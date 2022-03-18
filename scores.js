@@ -225,7 +225,7 @@ var participants = 22;
     }
 
     // Game 14
-    var gm14 = "";
+    var gm14 = "murr";
     var gm14Picks = 10;
     var murr1 = 0;
     var sf1 = 0;
@@ -257,7 +257,7 @@ var participants = 22;
     }
 
     // Game 16
-    var gm16 = "";
+    var gm16 = "kan";
     var gm16Picks = 21;
     var kan1 = 0;
     var txso1 = 0;
