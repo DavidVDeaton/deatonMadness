@@ -145,7 +145,7 @@ var participants = 21;
     console.log(unc1);
 
     // Game 9
-    var gm9 = "";
+    var gm9 = "nmst";
     var gm9Picks = 16;
     var conn1 = 0;
     var nmst1 = 0;
