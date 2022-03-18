@@ -183,3 +183,10 @@ h3 {
         background-color:rgba(124, 3, 3, 0.3);
     }
 }
+
+@media only screen and (max-width:450px) {
+
+    .scores {
+        width: 350px;
+    }
+}
