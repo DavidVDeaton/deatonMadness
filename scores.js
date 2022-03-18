@@ -337,7 +337,7 @@ var participants = 22;
     }
 
     // Game 21
-    var gm21 = "";
+    var gm21 = "nova";
     var gm21Picks = 21;
     var nova1 = 0;
     var del1 = 0;
@@ -353,7 +353,7 @@ var participants = 22;
     }
 
     // Game 22
-    var gm22 = "";
+    var gm22 = "miami";
     var gm22Picks = 10;
     var usc1 = 0;
     var miami1 = 0;
