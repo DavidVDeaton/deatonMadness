@@ -369,7 +369,7 @@ var participants = 22;
     }
 
     // Game 23
-    var gm23 = "";
+    var gm23 = "nd";
     var gm23Picks = 13;
     var bama1 = 0;
     var nd1 = 0;
