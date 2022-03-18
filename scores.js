@@ -1,8 +1,8 @@
-var participants = 21;
+var participants = 22;
 
     // Game 1
     var gm1 = "mich";
-    var gm1Picks = 8;
+    var gm1Picks = 9;
     var colost1 = 0;
     var mich1 = 0;
     if (gm1==="colost") {
@@ -20,7 +20,7 @@ var participants = 21;
 
     // Game 2
     var gm2 = "prov";
-    var gm2Picks = 11;
+    var gm2Picks = 12;
     var prov1 = 0;
     var sdakst1 = 0;
     if (gm2==="prov") {
@@ -56,7 +56,7 @@ var participants = 21;
 
     // Game 4
     var gm4 = "bay";
-    var gm4Picks = 21;
+    var gm4Picks = 22;
     var bay1 = 0;
     var norst1 = 0;
     if (gm4==="bay") {
@@ -74,7 +74,7 @@ var participants = 21;
 
     // Game 5
     var gm5 = "tenn";
-    var gm5Picks = 21;
+    var gm5Picks = 22;
     var tenn1 = 0;
     var longw1 = 0;
     if (gm5==="tenn") {
@@ -92,7 +92,7 @@ var participants = 21;
 
     // Game 6
     var gm6 = "rich";
-    var gm6Picks = 19;
+    var gm6Picks = 20;
     var iowa1 = 0;
     var rich1 = 0;
     if (gm6==="iowa") {
@@ -110,7 +110,7 @@ var participants = 21;
 
     // Game 7
     var gm7 = "zaga";
-    var gm7Picks = 21;
+    var gm7Picks = 22;
     var zaga1 = 0;
     var geost1 = 0;
     if (gm7==="zaga") {
@@ -146,7 +146,7 @@ var participants = 21;
 
     // Game 9
     var gm9 = "nmst";
-    var gm9Picks = 16;
+    var gm9Picks = 18;
     var conn1 = 0;
     var nmst1 = 0;
     if (gm9==="conn") {
@@ -161,8 +161,8 @@ var participants = 21;
     }
 
     // Game 10
-    var gm10 = "";
-    var gm10Picks = 21;
+    var gm10 = "stpete";
+    var gm10Picks = 22;
     var uk1 = 0;
     var stpete1 = 0;
     if (gm10==="uk") {
@@ -177,8 +177,8 @@ var participants = 21;
     }
 
     // Game 11
-    var gm11 = "";
-    var gm11Picks = 14;
+    var gm11 = "stmarys";
+    var gm11Picks = 15;
     var stmarys1 = 0;
     var ind1 = 0;
     if (gm11==="stmarys") {
@@ -194,7 +194,7 @@ var participants = 21;
 
     // Game 12
     var gm12 = "";
-    var gm12Picks = 9;
+    var gm12Picks = 10;
     var sdsu1 = 0;
     var creight1 = 0;
     if (gm12==="sdsu") {
@@ -210,7 +210,7 @@ var participants = 21;
 
     // Game 13
     var gm13 = "";
-    var gm13Picks = 9;
+    var gm13Picks = 17;
     var ark1 = 0;
     var verm1 = 0;
     if (gm13==="ark") {
@@ -242,7 +242,7 @@ var participants = 21;
 
     // Game 15
     var gm15 = "";
-    var gm15Picks = 21;
+    var gm15Picks = 22;
     var ucla1 = 0;
     var akron1 = 0;
     if (gm15==="ucla") {
@@ -258,7 +258,7 @@ var participants = 21;
 
     // Game 16
     var gm16 = "";
-    var gm16Picks = 20;
+    var gm16Picks = 21;
     var kan1 = 0;
     var txso1 = 0;
     if (gm16==="kan") {
@@ -594,16 +594,16 @@ var timScore =
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + usc1 + aub1
 ;
 
-// var katieScore = 
-//                         // West Round 1
-//     zaga1 + boise1 + nmst1 + ark1 + bama1 + textech1 + michst1 + duke1 +
-//                         // South Round 1
-//     az1 + seton1 + hou1 + ill1 + mich1 + tenn1 + ohiost1 + del1 + 
-//                         // East Round 1
-//     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
-//                         // Midwest Round 1
-//     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
-// ;
+var katieScore = 
+                        // West Round 1
+    zaga1 + mem1 + conn1 + ark1 + bama1 + textech1 + david1 + duke1 +
+                        // South Round 1
+    az1 + tcu1 + hou1 + ill1 + colost1 + tenn1 + loy1 + nova1 + 
+                        // East Round 1
+    bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
+                        // Midwest Round 1
+    kan1 + sdsu1 + iowa1 + prov1 + lsu1 + wisc1 + miami1 + aub1
+;
 
 var noahScore = 
                         // West Round 1
@@ -785,7 +785,7 @@ var nhyrum = hyrumScore.toFixed(2);
 var nrachel = rachelScore.toFixed(2);
 var npaige = paigeScore.toFixed(2);
 var nmatt = mattScore.toFixed(2);
-// var nkatie = katieScore.toFixed(2);
+var nkatie = katieScore.toFixed(2);
 var nreed = reedScore.toFixed(2);
 var nnoah = noahScore.toFixed(2);
 var nshea = sheaScore.toFixed(2);
@@ -805,7 +805,7 @@ $("#hyrumScore").text(nhyrum);
 $("#rachelScore").text(nrachel);
 $("#paigeScore").text(npaige);
 $("#mattScore").text(nmatt);
-// $("#katieScore").text(nkatie);
+$("#katieScore").text(nkatie);
 $("#reedScore").text(nreed);
 $("#noahScore").text(nnoah);
 $("#sheaScore").text(nshea);
