@@ -273,8 +273,8 @@ var participants = 22;
     }
 
     // Game 17
-    var gm17 = "";
-    var gm17Picks = 20;
+    var gm17 = "ohiost";
+    var gm17Picks = 13;
     var ohiost1 = 0;
     var loy1 = 0;
     if (gm17==="ohiost") {
@@ -289,8 +289,8 @@ var participants = 22;
     }
 
     // Game 18
-    var gm18 = "";
-    var gm18Picks = 20;
+    var gm18 = "aub";
+    var gm18Picks = 21;
     var aub1 = 0;
     var jackst1 = 0;
     if (gm18==="aub") {
