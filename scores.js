@@ -528,6 +528,130 @@ var participants = 22;
         tcu1 = 0;
     }
 
+    // Game 33
+    var gm33 = "unc";
+    var uncPicks = 2;
+    var bayPicks = 18;
+    var unc2 = 0;
+    var bay2 = 0;
+    if (gm33==="unc") {
+        unc2 = participants/uncPicks;
+    }
+    else if (gm33==="bay"){
+        bay2 = participants/bayPicks;
+    }
+    else {
+        unc2 = 0;
+        bay2 = 0;
+    }
+
+    // Game 34
+    var gm34 = "";
+    var kanPicks = 20;
+    var kan2 = 0;
+    if (gm34==="kan") {
+        kan2 = participants/kanPicks;
+    }
+    else {
+        kan2 = 0;
+    }
+
+    // Game 35
+    var gm35 = "";
+    var michPicks = 3;
+    var tennPicks = 18;
+    var mich2 = 0;
+    var tenn2 = 0;
+    if (gm35==="mich") {
+        mich2 = participants/michPicks;
+    }
+    else if (gm35==="tenn"){
+        tenn2 = participants/tennPicks;
+    }
+    else {
+        mich2 = 0;
+        tenn2 = 0;
+    }
+
+    // Game 36
+    var gm36 = "";
+    var richPicks = 1;
+    var provPicks = 2;
+    var rich2 = 0;
+    var prov2 = 0;
+    if (gm36==="rich") {
+        rich2 = participants/richPicks;
+    }
+    else if (gm36==="prov"){
+        prov2 = participants/provPicks;
+    }
+    else {
+        rich2 = 0;
+        prov2 = 0;
+    }
+
+    // Game 37
+    var gm37 = "";
+    var stmarysPicks = 5;
+    var uclaPicks = 16;
+    var stmarys2 = 0;
+    var ucla2 = 0;
+    if (gm37==="stmarys") {
+        stmarys2 = participants/stmarysPicks;
+    }
+    else if (gm37==="ucla"){
+        ucla2 = participants/uclaPicks;
+    }
+    else {
+        stmarys2 = 0;
+        ucla2 = 0;
+    }
+
+    // Game 38
+    var gm38 = "";
+    var memPicks = 1;
+    var zagaPicks = 21;
+    var mem2 = 0;
+    var zaga2 = 0;
+    if (gm38==="mem") {
+        mem2 = participants/memPicks;
+    }
+    else if (gm38==="zaga"){
+        zaga2 = participants/zagaPicks;
+    }
+    else {
+        mem2 = 0;
+        zaga2 = 0;
+    }
+
+    // Game 39
+    var gm39 = "";
+    var nmstPicks = 2;
+    var arkPicks = 8;
+    var nmst2 = 0;
+    var ark2 = 0;
+    if (gm39==="nmst") {
+        nmst2 = participants/nmstPicks;
+    }
+    else if (gm39==="ark"){
+        ark2 = participants/arkPicks;
+    }
+    else {
+        nmst2 = 0;
+        ark2 = 0;
+    }
+
+    // Game 40
+    var gm40 = "";
+    var murrPicks = 1;
+    var murr2 = 0;
+    if (gm40==="murr") {
+        murr2 = participants/murrPicks;
+    }
+    else {
+        murr2 = 0;
+    }
+
 var davidScore = 
                         // West Round 1
     zaga1 + boise1 + nmst1 + ark1 + bama1 + textech1 + michst1 + duke1 +
@@ -538,8 +662,7 @@ var davidScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    // + zaga2 + nmst2 + tenn2 + bay2 + ucla2 + kan2
-    // + textech2 + michst2 + az2 + hou2 + ohiost2 + tex2 + aub2 + iowast2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + nmst2
 ;
 
 var daveScore =  
@@ -552,8 +675,7 @@ var daveScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
                         // Round 2
-    // + zaga2 + ark2 + tenn2 + bay2 + stmarys2 + kan2
-    // + textech2 + duke2 + az2 + hou2 + nova2 + pur2 + miami2 + wisc2
+    + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + ark2
 ;
 
 var aprilScore = 
@@ -566,8 +688,7 @@ var aprilScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + miami1 + aub1
                         // Round 2
-    // + zaga2 + tenn2 + bay2 + stmarys2 + kan2 + murr2
-    // + textech2 + duke2 + tcu2 + ill2 + nova2 + vt2 + aub2 + wisc2
+    + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + murr2
 ;
 
 var hyrumScore = 
@@ -579,6 +700,8 @@ var hyrumScore =
     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + lsu1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2
 ;
 
 var mattScore =  
@@ -590,6 +713,8 @@ var mattScore =
     bay1 + unc1 + stmarys1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + iowast1 + wisc1 + miami1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + stmarys2 + zaga2
 ;
 
 var timScore =  
@@ -601,6 +726,8 @@ var timScore =
     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2
 ;
 
 var katieScore = 
@@ -612,6 +739,8 @@ var katieScore =
     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + lsu1 + wisc1 + miami1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + prov2 + stmarys2 + zaga2 + ark2
 ;
 
 var noahScore = 
@@ -623,6 +752,8 @@ var noahScore =
     bay1 + marq1 + stmarys1 + ucla1 + vt1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + miami1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2
 ;
 
 var miriamScore = 
@@ -634,6 +765,8 @@ var miriamScore =
     bay1 + marq1 + stmarys1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2
 ;
 
 var susanScore = 
@@ -645,6 +778,8 @@ var susanScore =
     bay1 + marq1 + stmarys1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + lsu1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2
 ;
 
 var sheaScore = 
@@ -656,6 +791,8 @@ var sheaScore =
     bay1 + marq1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + miami1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + stmarys2 + zaga2
 ;
 
 var leviScore = 
@@ -667,6 +804,8 @@ var leviScore =
     bay1 + unc1 + ind1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + unc2 + tenn2 + ucla2 + zaga2 + ark2
 ;
 
 var calebScore =  
@@ -678,6 +817,8 @@ var calebScore =
     bay1 + marq1 + ind1 + ucla1 + vt1 + yale1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + iowast1 + col1 + miami1 + aub1
+                        // Round 2
+    + kan2 + tenn2 + zaga2 + ark2
 ;
 
 var ethanScore = 
@@ -689,6 +830,8 @@ var ethanScore =
     bay1 + unc1 + ind1 + ucla1 + vt1 + yale1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2
 ;
 
 var dennisScore = 
@@ -700,6 +843,8 @@ var dennisScore =
     bay1 + unc1 + stmarys1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + lsu1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2
 ;
 
 var paigeScore = 
@@ -711,6 +856,8 @@ var paigeScore =
     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2
 ;
 
 var reedScore = 
@@ -722,6 +869,8 @@ var reedScore =
     bay1 + marq1 + ind1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     txso1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + bay2 + tenn2 + ucla2 + mem2
 ;
 
 var rachelScore = 
@@ -733,6 +882,8 @@ var rachelScore =
     bay1 + marq1 + ind1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + rich1 + prov1 + iowast1 + wisc1 + miami1 + jackst1
+                        // Round 2
+    + kan2 + prov2 + ucla2 + zaga2 + nmst2
 ;
 
 var christineScore = 
@@ -744,6 +895,8 @@ var christineScore =
     bay1 + unc1 + ind1 + ucla1 + tex1 + yale1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + rich1 + prov1 + lsu1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + unc2 + kan2 + mich2 + rich2 + ucla2 + zaga2
 ;
 
 var lukeScore = 
@@ -755,6 +908,8 @@ var lukeScore =
     bay1 + unc1 + stmarys1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + miami1 + aub1
+                        // Round 2
+    + bay2 + kan2 + mich2 + ucla2 + zaga2
 ;
 
 var nickScore = 
@@ -766,6 +921,8 @@ var nickScore =
     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
+                        // Round 2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2
 ;
 
 var sabrinaScore = 
@@ -777,6 +934,8 @@ var sabrinaScore =
     bay1 + unc1 + ind1 + ucla1 + vt1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + usc1 + aub1
+                        // Round 2
+    + bay2 + kan2 + mich2 + ucla2 + zaga2
 ;
 
 var nsabrina = sabrinaScore.toFixed(2);
