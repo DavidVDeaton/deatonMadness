@@ -557,7 +557,7 @@ var participants = 22;
     }
 
     // Game 35
-    var gm35 = "";
+    var gm35 = "mich";
     var michPicks = 3;
     var tennPicks = 18;
     var mich2 = 0;
