@@ -128,7 +128,7 @@ var participants = 22;
 
     // Game 8
     var gm8 = "unc";
-    var gm8Picks = 6;
+    var gm8Picks = 7;
     var marq1 = 0;
     var unc1 = 0;
     if (gm8==="marq") {
@@ -194,7 +194,7 @@ var participants = 22;
 
     // Game 12
     var gm12 = "creight";
-    var gm12Picks = 10;
+    var gm12Picks = 9;
     var sdsu1 = 0;
     var creight1 = 0;
     if (gm12==="sdsu") {
@@ -401,7 +401,7 @@ var participants = 22;
     }
     
     // Game 25
-    var gm25 = "";
+    var gm25 = "ill";
     var gm25Picks = 17;
     var ill1 = 0;
     var chat1 = 0;
@@ -417,7 +417,7 @@ var participants = 22;
     }
 
     // Game 26
-    var gm26 = "";
+    var gm26 = "duke";
     var gm26Picks = 22;
     var duke1 = 0;
     var csuf1 = 0;
@@ -449,7 +449,7 @@ var participants = 22;
     }
 
     // Game 28
-    var gm28 = "";
+    var gm28 = "az";
     var gm28Picks = 22;
     var az1 = 0;
     var wrst1 = 0;
