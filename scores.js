@@ -558,7 +558,7 @@ var participants = 22;
 
     // Game 35
     var gm35 = "";
-    var michPicks = 4;
+    var michPicks = 3;
     var tennPicks = 18;
     var mich2 = 0;
     var tenn2 = 0;
