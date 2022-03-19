@@ -497,7 +497,7 @@ var participants = 22;
     }
 
     // Game 31
-    var gm31 = "";
+    var gm31 = "wisc";
     var gm31Picks = 21;
     var wisc1 = 0;
     var col1 = 0;
