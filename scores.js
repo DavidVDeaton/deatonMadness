@@ -546,7 +546,7 @@ var participants = 22;
     }
 
     // Game 34
-    var gm34 = "";
+    var gm34 = "kan";
     var kanPicks = 20;
     var kan2 = 0;
     if (gm34==="kan") {
@@ -652,6 +652,142 @@ var participants = 22;
         murr2 = 0;
     }
 
+    // Game 41
+    var gm41 = "";
+    var houPicks = 11;
+    var illPicks = 8;
+    var hou2 = 0;
+    var ill2 = 0;
+    if (gm41==="hou") {
+        hou2 = participants/houPicks;
+    }
+    else if (gm41==="ill"){
+        ill2 = participants/illPicks;
+    }
+    else {
+        hou2 = 0;
+        ill2 = 0;
+    }
+
+    // Game 42
+    var gm42 = "";
+    var ohiostPicks = 5;
+    var novaPicks = 15;
+    var ohiost2 = 0;
+    var nova2 = 0;
+    if (gm42==="ohiost") {
+        ohiost2 = participants/ohiostPicks;
+    }
+    else if (gm42==="nova"){
+        nova2 = participants/novaPicks;
+    }
+    else {
+        ohiost2 = 0;
+        nova2 = 0;
+    }
+
+    // Game 43
+    var gm43 = "";
+    var michstPicks = 2;
+    var dukePicks = 18;
+    var michst2 = 0;
+    var duke2 = 0;
+    if (gm43==="michst") {
+        michst2 = participants/michstPicks;
+    }
+    else if (gm43==="duke"){
+        duke2 = participants/dukePicks;
+    }
+    else {
+        michst2 = 0;
+        duke2 = 0;
+    }
+
+    // Game 44
+    var gm44 = "";
+    var iowastPicks = 4;
+    var wiscPicks = 11;
+    var iowast2 = 0;
+    var wisc2 = 0;
+    if (gm44==="iowast") {
+        iowast2 = participants/iowastPicks;
+    }
+    else if (gm44==="wisc"){
+        wisc2 = participants/wiscPicks;
+    }
+    else {
+        iowast2 = 0;
+        wisc2 = 0;
+    }
+
+    // Game 45
+    var gm45 = "";
+    var ndPicks = 11;
+    var textechPicks = 8;
+    var nd2 = 0;
+    var textech2 = 0;
+    if (gm45==="nd") {
+        nd2 = participants/ndPicks;
+    }
+    else if (gm45==="textech"){
+        textech2 = participants/textechPicks;
+    }
+    else {
+        nd2 = 0;
+        textech2 = 0;
+    }
+
+    // Game 46
+    var gm46 = "";
+    var miamiPicks = 2;
+    var aubPicks = 17;
+    var miami2 = 0;
+    var aub2 = 0;
+    if (gm46==="miami") {
+        miami2 = participants/miamiPicks;
+    }
+    else if (gm46==="aub"){
+        aub2 = participants/aubPicks;
+    }
+    else {
+        miami2 = 0;
+        aub2 = 0;
+    }
+
+    // Game 47
+    var gm47 = "";
+    var texPicks = 6;
+    var purPicks = 10;
+    var tex2 = 0;
+    var pur2 = 0;
+    if (gm47==="tex") {
+        tex2 = participants/texPicks;
+    }
+    else if (gm47==="pur"){
+        pur2 = participants/purPicks;
+    }
+    else {
+        tex2 = 0;
+        pur2 = 0;
+    }
+
+    // Game 48
+    var gm48 = "";
+    var tcuPicks = 3;
+    var azPicks = 19;
+    var tcu2 = 0;
+    var az2 = 0;
+    if (gm48==="tcu") {
+        tcu2 = participants/tcuPicks;
+    }
+    else if (gm48==="az"){
+        az2 = participants/azPicks;
+    }
+    else {
+        tcu2 = 0;
+        az2 = 0;
+    }
+
 var davidScore = 
                         // West Round 1
     zaga1 + boise1 + nmst1 + ark1 + bama1 + textech1 + michst1 + duke1 +
@@ -662,7 +798,7 @@ var davidScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + nmst2
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + nmst2 + hou2 + ohiost2 + michst2 + iowast2 + textech2 + aub2 + tex2 + az2
 ;
 
 var daveScore =  
