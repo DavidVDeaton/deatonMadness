@@ -433,7 +433,7 @@ var participants = 22;
     }
 
     // Game 27
-    var gm27 = "";
+    var gm27 = "iowast";
     var gm27Picks = 9;
     var lsu1 = 0;
     var iowast1 = 0;
