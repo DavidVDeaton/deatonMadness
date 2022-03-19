@@ -465,7 +465,7 @@ var participants = 22;
     }
 
     // Game 29
-    var gm29 = "";
+    var gm29 = "hou";
     var gm29Picks = 17;
     var hou1 = 0;
     var uab1 = 0;
@@ -481,7 +481,7 @@ var participants = 22;
     }
 
     // Game 30
-    var gm30 = "";
+    var gm30 = "michst";
     var gm30Picks = 7;
     var michst1 = 0;
     var david1 = 0;
@@ -513,7 +513,7 @@ var participants = 22;
     }
 
     // Game 32
-    var gm32 = "";
+    var gm32 = "tcu";
     var gm32Picks = 7;
     var seton1 = 0;
     var tcu1 = 0;
