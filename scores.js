@@ -574,7 +574,7 @@ var participants = 22;
     }
 
     // Game 36
-    var gm36 = "";
+    var gm36 = "prov";
     var richPicks = 1;
     var provPicks = 2;
     var rich2 = 0;
