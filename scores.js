@@ -591,7 +591,7 @@ var participants = 22;
     }
 
     // Game 37
-    var gm37 = "";
+    var gm37 = "ucla";
     var stmarysPicks = 5;
     var uclaPicks = 16;
     var stmarys2 = 0;
