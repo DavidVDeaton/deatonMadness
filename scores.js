@@ -608,7 +608,7 @@ var participants = 22;
     }
 
     // Game 38
-    var gm38 = "";
+    var gm38 = "zaga";
     var memPicks = 1;
     var zagaPicks = 21;
     var mem2 = 0;
