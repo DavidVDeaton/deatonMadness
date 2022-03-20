@@ -687,7 +687,7 @@ var participants = 22;
     }
 
     // Game 43
-    var gm43 = "";
+    var gm43 = "duke";
     var michstPicks = 2;
     var dukePicks = 18;
     var michst2 = 0;
