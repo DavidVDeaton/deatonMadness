@@ -670,7 +670,7 @@ var participants = 22;
     }
 
     // Game 42
-    var gm42 = "";
+    var gm42 = "nova";
     var ohiostPicks = 5;
     var novaPicks = 15;
     var ohiost2 = 0;
