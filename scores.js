@@ -625,7 +625,7 @@ var participants = 22;
     }
 
     // Game 39
-    var gm39 = "";
+    var gm39 = "ark";
     var nmstPicks = 2;
     var arkPicks = 8;
     var nmst2 = 0;
