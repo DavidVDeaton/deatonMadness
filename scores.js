@@ -653,7 +653,7 @@ var participants = 22;
     }
 
     // Game 41
-    var gm41 = "";
+    var gm41 = "hou";
     var houPicks = 11;
     var illPicks = 8;
     var hou2 = 0;
