@@ -755,7 +755,7 @@ var participants = 22;
     }
 
     // Game 47
-    var gm47 = "";
+    var gm47 = "pur";
     var texPicks = 6;
     var purPicks = 10;
     var tex2 = 0;
