@@ -738,7 +738,7 @@ var participants = 22;
     }
 
     // Game 46
-    var gm46 = "";
+    var gm46 = "miami";
     var miamiPicks = 2;
     var aubPicks = 17;
     var miami2 = 0;
