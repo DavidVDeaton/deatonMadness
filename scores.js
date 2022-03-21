@@ -704,7 +704,7 @@ var participants = 22;
     }
 
     // Game 44
-    var gm44 = "";
+    var gm44 = "iowast";
     var iowastPicks = 4;
     var wiscPicks = 11;
     var iowast2 = 0;
