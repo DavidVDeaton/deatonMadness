@@ -772,7 +772,7 @@ var participants = 22;
     }
 
     // Game 48
-    var gm48 = "";
+    var gm48 = "az";
     var tcuPicks = 3;
     var azPicks = 19;
     var tcu2 = 0;
