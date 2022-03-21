@@ -721,7 +721,7 @@ var participants = 22;
     }
 
     // Game 45
-    var gm45 = "";
+    var gm45 = "textech";
     var ndPicks = 11;
     var textechPicks = 8;
     var nd2 = 0;
