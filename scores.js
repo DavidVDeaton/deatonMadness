@@ -789,7 +789,7 @@ var participants = 22;
     }
 
     // Game 49
-    var gm49 = "";
+    var gm49 = "ark";
     var gm49undPicks = 1;
     var gm49favPicks = 19;
     var ark3 = 0;
@@ -806,7 +806,7 @@ var participants = 22;
     }
 
     // Game 50
-    var gm50 = "";
+    var gm50 = "nova";
     var gm50undPicks = 1;
     var gm50favPicks = 9;
     var mich3 = 0;
