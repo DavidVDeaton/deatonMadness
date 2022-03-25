@@ -823,7 +823,7 @@ var participants = 22;
     }
 
     // Game 51
-    var gm51 = "";
+    var gm51 = "duke";
     var gm51undPicks = 7;
     var gm51favPicks = 10;
     var textech3 = 0;
@@ -840,7 +840,7 @@ var participants = 22;
     }
 
     // Game 52
-    var gm52 = "";
+    var gm52 = "hou";
     var gm52undPicks = 1;
     var gm52favPicks = 18;
     var hou3 = 0;
