@@ -856,7 +856,49 @@ var participants = 22;
         az3 = 0;
     }
 
+    // Game 53
+    var gm53 = "";
+    var gm53favPicks = 4;
+    var pur3 = 0;
+    if (gm53==="pur") {
+        pur3 = (2*participants)/gm53favPicks;
+    }
+    else {
+        pur3 = 0;
+    }
 
+    // Game 54
+    var gm54 = "";
+    var gm54favPicks = 4;
+    var kan3 = 0;
+    if (gm54==="kan") {
+        kan3 = (2*participants)/gm54favPicks;
+    }
+    else {
+        kan3 = 0;
+    }
+
+    // Game 55
+    var gm55 = "";
+    var gm55favPicks = 4;
+    var ucla3 = 0;
+    if (gm55==="ucla") {
+        ucla3 = (2*participants)/gm55favPicks;
+    }
+    else {
+        ucla3 = 0;
+    }
+
+    // Game 56
+    var gm56 = "";
+    var gm56favPicks = 4;
+    var iowast3 = 0;
+    if (gm56==="iowast") {
+        iowast3 = (2*participants)/gm56favPicks;
+    }
+    else {
+        iowast3 = 0;
+    }
 
 var davidScore = 
                         // West Round 1
@@ -870,7 +912,7 @@ var davidScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + ucla2 + zaga2 + nmst2 + hou2 + ohiost2 + michst2 + iowast2 + textech2 + aub2 + tex2 + az2 +
                         // Sweet 16
-    zaga3 + az3
+    zaga3 + az3 + kan3
 ;
 
 var daveScore =  
@@ -885,7 +927,7 @@ var daveScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + ark2 + hou2 + nova2 + duke2 + wisc2 + textech2 + miami2 + pur2 + az2 +
                         // Sweet 16
-    zaga3 + az3 + nova3 + duke3 
+    zaga3 + az3 + nova3 + duke3 + pur3 + kan3
 ;
 
 var aprilScore = 
@@ -900,7 +942,7 @@ var aprilScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + murr2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + tcu2 +
                         // Sweet 16
-    textech3
+    textech3 + kan3
 ;
 
 var hyrumScore = 
@@ -930,7 +972,7 @@ var mattScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + aub2 + az2 + 
                         // Sweet 16
-    zaga3 + az3 + duke3
+    zaga3 + az3 + duke3 + kan3
 ;
 
 var timScore =  
@@ -960,7 +1002,7 @@ var katieScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + prov2 + stmarys2 + zaga2 + ark2 + hou2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 + 
                         // Sweet 16
-    ark3 + az3 + textech3
+    ark3 + az3 + textech3 + pur3 + kan3
 ;
 
 var noahScore = 
@@ -1005,7 +1047,7 @@ var susanScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + hou2 + nova2 + duke2 + textech2 + pur2 + az2 +
                         // Sweet 16
-    zaga3 + az3 + nova3 + duke3
+    zaga3 + az3 + nova3 + duke3 + pur3 + kan3
 ;
 
 var sheaScore = 
@@ -1020,7 +1062,7 @@ var sheaScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + hou2 + nova2 + duke2 + wisc2 + aub2 + pur2 + az2 +
                         // Sweet 16
-    zaga3 + az3 + duke3
+    zaga3 + az3 + duke3 + pur3 + kan3
 ;
 
 var leviScore = 
@@ -1035,7 +1077,7 @@ var leviScore =
                         // Round 2
     + unc2 + tenn2 + ucla2 + zaga2 + ark2 + duke2 + wisc2 + nd2 + aub2 + pur2 + az2 +
                         // Sweet 16
-    zaga3 + az3
+    zaga3 + az3 + ucla3
 ;
 
 var calebScore =  
@@ -1050,7 +1092,7 @@ var calebScore =
                         // Round 2
     + kan2 + tenn2 + zaga2 + ark2 + nd2 + aub2 + az2 +
                         // Sweet 16
-    zaga3 + az3
+    zaga3 + az3 + kan3
 ;
 
 var ethanScore = 
@@ -1065,7 +1107,7 @@ var ethanScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + ucla2 + zaga2 + hou2 + ohiost2 + duke2 + textech2 + aub2 + az2 +
                         // Sweet 16
-    zaga3 + az3 + textech3
+    zaga3 + az3 + textech3 + kan3 + ucla3
 ;
 
 var dennisScore = 
@@ -1095,7 +1137,7 @@ var paigeScore =
                         // Round 2
     + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + ill2 + ohiost2 + duke2 + aub2 + tex2 + tcu2 + 
                         // Sweet 16
-    zaga3
+    zaga3 + kan3
 ;
 
 var reedScore = 
@@ -1110,7 +1152,7 @@ var reedScore =
                         // Round 2
     + bay2 + tenn2 + ucla2 + mem2 + hou2 + ohiost2 + iowast2 + pur2 + tcu2 +
                         // Sweet 16
-    hou3
+    hou3 + ucla3
 ;
 
 var rachelScore = 
@@ -1125,7 +1167,7 @@ var rachelScore =
                         // Round 2
     + kan2 + prov2 + ucla2 + zaga2 + nmst2 + nova2 + duke2 + iowast2 + miami2 + tex2 + az2 +
                         // Sweet 16
-    zaga3 + az3 + nova3 + duke3 
+    zaga3 + az3 + nova3 + duke3 + kan3 + ucla3 + iowast3
 ;
 
 var christineScore = 
