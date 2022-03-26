@@ -858,7 +858,7 @@ var participants = 22;
 
     // Game 53
     var gm53 = "";
-    var gm53favPicks = 19;
+    var gm53favPicks = 4;
     var pur3 = 0;
     if (gm53==="pur") {
         pur3 = (2*participants)/gm53favPicks;
@@ -868,8 +868,8 @@ var participants = 22;
     }
 
     // Game 54
-    var gm54 = "";
-    var gm54favPicks = 4;
+    var gm54 = "kan";
+    var gm54favPicks = 19;
     var kan3 = 0;
     if (gm54==="kan") {
         kan3 = (2*participants)/gm54favPicks;
