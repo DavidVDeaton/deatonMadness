@@ -933,6 +933,28 @@ var participants = 22;
         kan4 = 0;
     }
 
+    // Game 61
+    var gm61 = "";
+    var gm61favPicks = 2;
+    var duke5 = 0;
+    if (gm61==="duke") {
+        duke5 = (3*participants)/gm61favPicks;
+    }
+    else {
+        duke5 = 0;
+    }
+
+    // Game 62
+    var gm62 = "";
+    var gm62favPicks = 3;
+    var kan5 = 0;
+    if (gm62==="kan") {
+        kan5 = (3*participants)/gm62favPicks;
+    }
+    else {
+        kan5 = 0;
+    }
+
 var davidScore = 
                         // West Round 1
     zaga1 + boise1 + nmst1 + ark1 + bama1 + textech1 + michst1 + duke1 +
@@ -1076,6 +1098,8 @@ var miriamScore =
     zaga3 + az3 + nova3 + duke3 + kan3 +
                         // Elite 8
     duke4 + kan4
+                        // Final 4
+    + duke5 + kan5
 ;
 
 var susanScore = 
@@ -1170,6 +1194,8 @@ var dennisScore =
     zaga3 + az3 + duke3 + kan3 +
                         // Elite 8
     kan4
+                        // Final 4
+    + kan5
 ;
 
 var paigeScore = 
@@ -1217,6 +1243,8 @@ var rachelScore =
     zaga3 + az3 + nova3 + duke3 + kan3 + ucla3 + iowast3 +
                         // Elite 8
     duke4 + kan4
+                        // Final 4
+    + duke5
 ;
 
 var christineScore = 
@@ -1283,6 +1311,8 @@ var sabrinaScore =
     zaga3 + az3 + mich3 + textech3 + kan3 + ucla3 +
                         // Elite 8
     kan4
+                        // Final 4
+    + kan5
 ;
 
 var nsabrina = sabrinaScore.toFixed(2);
