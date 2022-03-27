@@ -912,7 +912,7 @@ var participants = 22;
     }
 
     // Game 58
-    var gm58 = "";
+    var gm58 = "nova";
     var gm58favPicks = 1;
     var nova4 = 0;
     if (gm58==="nova") {
