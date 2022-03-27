@@ -901,7 +901,7 @@ var participants = 22;
     }
 
     // Game 57
-    var gm57 = "";
+    var gm57 = "duke";
     var gm57favPicks = 2;
     var duke4 = 0;
     if (gm57==="duke") {
