@@ -955,6 +955,17 @@ var participants = 22;
         kan5 = 0;
     }
 
+    // Game 63
+    var gm63 = "";
+    var gm63favPicks = 1;
+    var kan6 = 0;
+    if (gm63==="kan") {
+        kan6 = (3*participants)/gm63favPicks;
+    }
+    else {
+        kan6 = 0;
+    }
+
 var davidScore = 
                         // West Round 1
     zaga1 + boise1 + nmst1 + ark1 + bama1 + textech1 + michst1 + duke1 +
@@ -1196,6 +1207,8 @@ var dennisScore =
     kan4
                         // Final 4
     + kan5
+                        // Championship Game
+    + kan6
 ;
 
 var paigeScore = 
