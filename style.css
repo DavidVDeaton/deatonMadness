@@ -117,6 +117,7 @@ h3 {
     border: 1.5px solid;
     padding: 5px;
     margin: 5px;
+    min-height: 100px;
 }
 
 .center {
