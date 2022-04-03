@@ -945,7 +945,7 @@ var participants = 22;
     }
 
     // Game 62
-    var gm62 = "";
+    var gm62 = "kan";
     var gm62favPicks = 3;
     var kan5 = 0;
     if (gm62==="kan") {
