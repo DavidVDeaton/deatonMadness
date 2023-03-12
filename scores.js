@@ -1190,19 +1190,37 @@ var ethanScore =
     zaga3 + az3 + textech3 + kan3 + ucla3
 ;
 
+var rachelScore = 
+                        // West Round 1
+    zaga1 + mem1 + nmst1 + ark1 + textech1 + duke1 +
+                        // South Round 1
+    az1 + tcu1 + tenn1 + ohiost1 + nova1 + 
+                        // East Round 1
+    bay1 + ucla1 + tex1 + pur1 +
+                        // Midwest Round 1
+    kan1 + creight1 + rich1 + prov1 + iowast1 + wisc1 + miami1
+                        // Round 2
+    + kan2 + prov2 + ucla2 + zaga2 + nova2 + duke2 + iowast2 + miami2 + az2 +
+                        // Sweet 16
+    nova3 + duke3 + kan3 +
+                        // Elite 8
+    duke4 + kan4
+                        // Final 4
+;
+
 var dennisScore = 
                         // West Round 1
-    zaga1 + mem1 + conn1 + ark1 + nd1 + textech1 + david1 + duke1 +
+    zaga1 + mem1 + ark1 + nd1 + textech1 + duke1 +
                         // South Round 1
-    az1 + seton1 + hou1 + ill1 + colost1 + tenn1 + loy1 + nova1 + 
+    az1 + hou1 + ill1 + tenn1 + nova1 + 
                         // East Round 1
-    bay1 + unc1 + stmarys1 + ucla1 + vt1 + pur1 + murr1 + uk1 + 
+    bay1 + unc1 + stmarys1 + ucla1 + pur1 + murr1 +
                         // Midwest Round 1
-    kan1 + creight1 + iowa1 + prov1 + lsu1 + wisc1 + usc1 + aub1
+    kan1 + creight1 + prov1 + wisc1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + az2 +
+    + kan2 + ucla2 + zaga2 + nova2 + duke2 + textech2 + az2 +
                         // Sweet 16
-    zaga3 + az3 + duke3 + kan3 +
+    duke3 + kan3 +
                         // Elite 8
     kan4
                         // Final 4
@@ -1241,25 +1259,6 @@ var reedScore =
     hou3 + ucla3 
 ;
 
-var rachelScore = 
-                        // West Round 1
-    zaga1 + mem1 + nmst1 + ark1 + bama1 + textech1 + david1 + duke1 +
-                        // South Round 1
-    az1 + tcu1 + uab1 + chat1 + colost1 + tenn1 + ohiost1 + nova1 + 
-                        // East Round 1
-    bay1 + marq1 + ind1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
-                        // Midwest Round 1
-    kan1 + creight1 + rich1 + prov1 + iowast1 + wisc1 + miami1 + jackst1
-                        // Round 2
-    + kan2 + prov2 + ucla2 + zaga2 + nmst2 + nova2 + duke2 + iowast2 + miami2 + tex2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + nova3 + duke3 + kan3 + ucla3 + iowast3 +
-                        // Elite 8
-    duke4 + kan4
-                        // Final 4
-    + duke5
-;
-
 var christineScore = 
                         // West Round 1
     zaga1 + boise1 + conn1 + verm1 + nd1 + textech1 + david1 + duke1 +
@@ -1285,7 +1284,7 @@ var lukeScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + mich2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 +
+    + bay2 + kan2 + mich2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2
                         // Sweet 16
     zaga3 + az3 + nova3 + textech3 + kan3 + ucla3 +
                         // Elite 8
@@ -1302,9 +1301,9 @@ var nickScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + hou2 + ohiost2 + michst2 + textech2 + aub2 + tex2 + az2 +
+    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + hou2 + ohiost2 + michst2 + textech2 + aub2 + tex2 + az2
                         // Sweet 16
-    zaga3 + az3 + textech3 + kan3 +
+    + zaga3 + az3 + textech3 + kan3 +
                         // Elite 8
     kan4
 ;
@@ -1319,9 +1318,9 @@ var sabrinaScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + kan2 + mich2 + ucla2 + zaga2 + hou2 + nova2 + duke2 + iowast2 + textech2 + aub2 + az2 + 
+    + bay2 + kan2 + mich2 + ucla2 + zaga2 + hou2 + nova2 + duke2 + iowast2 + textech2 + aub2 + az2
                         // Sweet 16
-    zaga3 + az3 + mich3 + textech3 + kan3 + ucla3 +
+    + zaga3 + az3 + mich3 + textech3 + kan3 + ucla3 +
                         // Elite 8
     kan4
                         // Final 4
