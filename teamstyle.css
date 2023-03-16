@@ -270,6 +270,14 @@
     background-position-y: center;
 }
 
+#TexasAMCC {
+    background-image: url("assets/texasamcc.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #MichiganSt {
     background-image: url("assets/michst.png");
     background-repeat: no-repeat;
