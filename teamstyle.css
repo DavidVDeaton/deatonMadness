@@ -254,6 +254,14 @@
     background-position-y: center;
 }
 
+#Howard {
+    background-image: url("assets/howard.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #Missouri {
     background-image: url("assets/miss.png");
     background-repeat: no-repeat;
