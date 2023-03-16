@@ -1,7 +1,7 @@
 var participants = 22;
 
     // Game 1
-    var gm1 = "mich";
+    var game1 = "";
     var gm1Picks = 9;
     var colost1 = 0;
     var mich1 = 0;
@@ -976,9 +976,9 @@ var davidScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + nmst2 + hou2 + ohiost2 + michst2 + iowast2 + textech2 + aub2 + tex2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + kan3
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + nmst2 + hou2 + ohiost2 + michst2 + iowast2 + textech2 + aub2 + tex2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + kan3
 ;
 
 var daveScore =  
@@ -990,12 +990,12 @@ var daveScore =
     bay1 + unc1 + stmarys1 + ucla1 + tex1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
-                        // Round 2
-    + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + ark2 + hou2 + nova2 + duke2 + wisc2 + textech2 + miami2 + pur2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + nova3 + duke3 + pur3 + kan3 +
-                        // Elite 8
-    kan4
+    //                     // Round 2
+    // + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + ark2 + hou2 + nova2 + duke2 + wisc2 + textech2 + miami2 + pur2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + nova3 + duke3 + pur3 + kan3 +
+    //                     // Elite 8
+    // kan4
 ;
 
 var aprilScore = 
@@ -1008,9 +1008,9 @@ var aprilScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + murr2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + tcu2 +
-                        // Sweet 16
-    textech3 + kan3
+    // + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + murr2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + tcu2 +
+    //                     // Sweet 16
+    // textech3 + kan3
 ;
 
 var hyrumScore = 
@@ -1023,11 +1023,11 @@ var hyrumScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + lsu1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + ill2 + nova2 + duke2 + textech2 + aub2 + tex2 + az2 +
-                        // Sweet 16
-    zaga3 + textech3 + nova3 + ucla3 +
-                        // Elite 8
-    nova4
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + ill2 + nova2 + duke2 + textech2 + aub2 + tex2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + textech3 + nova3 + ucla3 +
+    //                     // Elite 8
+    // nova4
 ;
 
 var mattScore =  
@@ -1040,11 +1040,11 @@ var mattScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + iowast1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + aub2 + az2 + 
-                        // Sweet 16
-    zaga3 + az3 + duke3 + kan3 +
-                        // Elite 8
-    kan4
+    // + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + aub2 + az2 + 
+    //                     // Sweet 16
+    // zaga3 + az3 + duke3 + kan3 +
+    //                     // Elite 8
+    // kan4
 ;
 
 var timScore =  
@@ -1057,11 +1057,11 @@ var timScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + hou2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + nova3 + duke3 + kan3 +
-                        // Elite 8
-    kan4
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + hou2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + nova3 + duke3 + kan3 +
+    //                     // Elite 8
+    // kan4
 ;
 
 var katieScore = 
@@ -1074,9 +1074,9 @@ var katieScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + lsu1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + prov2 + stmarys2 + zaga2 + ark2 + hou2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 + 
-                        // Sweet 16
-    ark3 + az3 + textech3 + pur3 + kan3
+    // + bay2 + kan2 + tenn2 + prov2 + stmarys2 + zaga2 + ark2 + hou2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 + 
+    //                     // Sweet 16
+    // ark3 + az3 + textech3 + pur3 + kan3
 ;
 
 var noahScore = 
@@ -1088,10 +1088,10 @@ var noahScore =
     bay1 + marq1 + stmarys1 + ucla1 + vt1 + pur1 + sf1 + uk1 + 
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + miami1 + aub1
-                        // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 + 
-                        // Sweet 16
-    zaga3 + az3 + nova3 + duke3 + kan3
+    //                     // Round 2
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 + 
+    //                     // Sweet 16
+    // zaga3 + az3 + nova3 + duke3 + kan3
 ;
 
 var miriamScore = 
@@ -1104,13 +1104,13 @@ var miriamScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + hou2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + nova3 + duke3 + kan3 +
-                        // Elite 8
-    duke4 + kan4
-                        // Final 4
-    + duke5 + kan5
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + hou2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + nova3 + duke3 + kan3 +
+    //                     // Elite 8
+    // duke4 + kan4
+    //                     // Final 4
+    // + duke5 + kan5
 ;
 
 var susanScore = 
@@ -1123,11 +1123,11 @@ var susanScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + lsu1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + hou2 + nova2 + duke2 + textech2 + pur2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + nova3 + duke3 + pur3 + kan3 +
-                        // Elite 8
-    kan4
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + hou2 + nova2 + duke2 + textech2 + pur2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + nova3 + duke3 + pur3 + kan3 +
+    //                     // Elite 8
+    // kan4
 ;
 
 var sheaScore = 
@@ -1140,9 +1140,9 @@ var sheaScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + prov1 + iowast1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + hou2 + nova2 + duke2 + wisc2 + aub2 + pur2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + duke3 + pur3 + kan3
+    // + bay2 + kan2 + tenn2 + stmarys2 + zaga2 + hou2 + nova2 + duke2 + wisc2 + aub2 + pur2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + duke3 + pur3 + kan3
 ;
 
 var leviScore = 
@@ -1155,9 +1155,9 @@ var leviScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + prov1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    + unc2 + tenn2 + ucla2 + zaga2 + ark2 + duke2 + wisc2 + nd2 + aub2 + pur2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + ucla3
+    // + unc2 + tenn2 + ucla2 + zaga2 + ark2 + duke2 + wisc2 + nd2 + aub2 + pur2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + ucla3
 ;
 
 var calebScore =  
@@ -1170,9 +1170,9 @@ var calebScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + iowast1 + col1 + miami1 + aub1
                         // Round 2
-    + kan2 + tenn2 + zaga2 + ark2 + nd2 + aub2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + kan3
+    // + kan2 + tenn2 + zaga2 + ark2 + nd2 + aub2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + kan3
 ;
 
 var ethanScore = 
@@ -1185,9 +1185,9 @@ var ethanScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + hou2 + ohiost2 + duke2 + textech2 + aub2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + textech3 + kan3 + ucla3
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + hou2 + ohiost2 + duke2 + textech2 + aub2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + textech3 + kan3 + ucla3
 ;
 
 var rachelScore = 
@@ -1200,12 +1200,12 @@ var rachelScore =
                         // Midwest Round 1
     kan1 + creight1 + rich1 + prov1 + iowast1 + wisc1 + miami1
                         // Round 2
-    + kan2 + prov2 + ucla2 + zaga2 + nova2 + duke2 + iowast2 + miami2 + az2 +
-                        // Sweet 16
-    nova3 + duke3 + kan3 +
-                        // Elite 8
-    duke4 + kan4
-                        // Final 4
+    // + kan2 + prov2 + ucla2 + zaga2 + nova2 + duke2 + iowast2 + miami2 + az2 +
+    //                     // Sweet 16
+    // nova3 + duke3 + kan3 +
+    //                     // Elite 8
+    // duke4 + kan4
+    //                     // Final 4
 ;
 
 var dennisScore = 
@@ -1218,15 +1218,15 @@ var dennisScore =
                         // Midwest Round 1
     kan1 + creight1 + prov1 + wisc1 + aub1
                         // Round 2
-    + kan2 + ucla2 + zaga2 + nova2 + duke2 + textech2 + az2 +
-                        // Sweet 16
-    duke3 + kan3 +
-                        // Elite 8
-    kan4
-                        // Final 4
-    + kan5
-                        // Championship Game
-    + kan6
+    // + kan2 + ucla2 + zaga2 + nova2 + duke2 + textech2 + az2 +
+    //                     // Sweet 16
+    // duke3 + kan3 +
+    //                     // Elite 8
+    // kan4
+    //                     // Final 4
+    // + kan5
+    //                     // Championship Game
+    // + kan6
 ;
 
 var paigeScore = 
@@ -1239,9 +1239,9 @@ var paigeScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + ill2 + ohiost2 + duke2 + aub2 + tex2 + tcu2 + 
-                        // Sweet 16
-    zaga3 + kan3
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + ill2 + ohiost2 + duke2 + aub2 + tex2 + tcu2 + 
+    //                     // Sweet 16
+    // zaga3 + kan3
 ;
 
 var reedScore = 
@@ -1254,9 +1254,9 @@ var reedScore =
                         // Midwest Round 1
     txso1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + tenn2 + ucla2 + mem2 + hou2 + ohiost2 + iowast2 + pur2 + tcu2 +
-                        // Sweet 16
-    hou3 + ucla3 
+    // + bay2 + tenn2 + ucla2 + mem2 + hou2 + ohiost2 + iowast2 + pur2 + tcu2 +
+    //                     // Sweet 16
+    // hou3 + ucla3 
 ;
 
 var christineScore = 
@@ -1269,9 +1269,9 @@ var christineScore =
                         // Midwest Round 1
     kan1 + creight1 + rich1 + prov1 + lsu1 + wisc1 + usc1 + aub1
                         // Round 2
-    + unc2 + kan2 + mich2 + rich2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + nd2 + tex2 + az2 +
-                        // Sweet 16
-    zaga3 + az3 + nova3 + duke3 + kan3 + ucla3 
+    // + unc2 + kan2 + mich2 + rich2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + nd2 + tex2 + az2 +
+    //                     // Sweet 16
+    // zaga3 + az3 + nova3 + duke3 + kan3 + ucla3 
 ;
 
 var lukeScore = 
@@ -1284,11 +1284,11 @@ var lukeScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + mich2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2
-                        // Sweet 16
-    zaga3 + az3 + nova3 + textech3 + kan3 + ucla3 +
-                        // Elite 8
-    kan4
+    // + bay2 + kan2 + mich2 + ucla2 + zaga2 + ill2 + nova2 + duke2 + wisc2 + textech2 + aub2 + pur2 + az2
+    //                     // Sweet 16
+    // zaga3 + az3 + nova3 + textech3 + kan3 + ucla3 +
+    //                     // Elite 8
+    // kan4
 ;
 
 var nickScore = 
@@ -1301,11 +1301,11 @@ var nickScore =
                         // Midwest Round 1
     kan1 + sdsu1 + iowa1 + sdakst1 + lsu1 + wisc1 + miami1 + aub1
                         // Round 2
-    + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + hou2 + ohiost2 + michst2 + textech2 + aub2 + tex2 + az2
-                        // Sweet 16
-    + zaga3 + az3 + textech3 + kan3 +
-                        // Elite 8
-    kan4
+    // + bay2 + kan2 + tenn2 + ucla2 + zaga2 + ark2 + hou2 + ohiost2 + michst2 + textech2 + aub2 + tex2 + az2
+    //                     // Sweet 16
+    // + zaga3 + az3 + textech3 + kan3 +
+    //                     // Elite 8
+    // kan4
 ;
 
 var sabrinaScore = 
@@ -1318,13 +1318,13 @@ var sabrinaScore =
                         // Midwest Round 1
     kan1 + creight1 + iowa1 + sdakst1 + iowast1 + wisc1 + usc1 + aub1
                         // Round 2
-    + bay2 + kan2 + mich2 + ucla2 + zaga2 + hou2 + nova2 + duke2 + iowast2 + textech2 + aub2 + az2
-                        // Sweet 16
-    + zaga3 + az3 + mich3 + textech3 + kan3 + ucla3 +
-                        // Elite 8
-    kan4
-                        // Final 4
-    + kan5
+    // + bay2 + kan2 + mich2 + ucla2 + zaga2 + hou2 + nova2 + duke2 + iowast2 + textech2 + aub2 + az2
+    //                     // Sweet 16
+    // + zaga3 + az3 + mich3 + textech3 + kan3 + ucla3 +
+    //                     // Elite 8
+    // kan4
+    //                     // Final 4
+    // + kan5
 ;
 
 var nsabrina = sabrinaScore.toFixed(2);

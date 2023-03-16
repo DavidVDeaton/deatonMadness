@@ -517,3 +517,35 @@
     background-position-x: center;    
     background-position-y: center;
 }
+
+#Maryland {
+    background-image: url("assets/maryland.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;    
+    background-position-y: center;
+}
+
+#WestVirginia {
+    background-image: url("assets/westvirginia.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;    
+    background-position-y: center;
+}
+
+#Virginia {
+    background-image: url("assets/virginia.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;    
+    background-position-y: center;
+}
+
+#Furman {
+    background-image: url("assets/furman.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;    
+    background-position-y: center;
+}

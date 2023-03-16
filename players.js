@@ -1,13 +1,135 @@
-var david = $("<img>", {
-    class: "small-circle",
-    alt: "David",
-    src: "assets/profile/david.png"
-});
+// let players = [david,dave, april];
+
+// let david = {
+//     name: "David",
+//     score: 0,
+//     src: "assets/profile/david.png",
+//     picks: {
+//         game1:"01s",
+//         game2:"08s",
+//         game3:"05s",
+//         game4:"04s",
+//         game5:"11s",
+//         game6:"03s",
+//         game7:"10s",
+//         game8:"02s",
+//         game9:"01e",
+//         game10:"08e",
+//         game11:"05e",
+//         game12:"04e",
+//         game13:"11e",
+//         game14:"03e",
+//         game15:"10e",
+//         game16:"02e",
+//         game17:"01m",
+//         game18:"08m",
+//         game19:"05m",
+//         game20:"04m",
+//         game21:"11m",
+//         game22:"03m",
+//         game23:"10m",
+//         game24:"02m",
+//         game25:"01w",
+//         game26:"08w",
+//         game27:"05w",
+//         game28:"04w",
+//         game29:"11w",
+//         game30:"03w",
+//         game31:"10w",
+//         game32:"02w",
+//     }
+// };
+
+// let april = {
+//     name: "April",
+//     score: 0,
+//     src: "assets/profile/april.png",
+//     picks: {
+//         game1:"01s",
+//         game2:"08s",
+//         game3:"05s",
+//         game4:"04s",
+//         game5:"11s",
+//         game6:"03s",
+//         game7:"10s",
+//         game8:"02s",
+//         game9:"01e",
+//         game10:"08e",
+//         game11:"05e",
+//         game12:"04e",
+//         game13:"11e",
+//         game14:"03e",
+//         game15:"10e",
+//         game16:"02e",
+//         game17:"01m",
+//         game18:"08m",
+//         game19:"05m",
+//         game20:"04m",
+//         game21:"11m",
+//         game22:"03m",
+//         game23:"10m",
+//         game24:"02m",
+//         game25:"01w",
+//         game26:"08w",
+//         game27:"05w",
+//         game28:"04w",
+//         game29:"11w",
+//         game30:"03w",
+//         game31:"10w",
+//         game32:"02w",
+//     }
+// };
+
+// let dave = {
+//     name: "Dave",
+//     score: 0,
+//     src: "assets/profile/dave.png",
+//     picks: {
+//         game1:"01s",
+//         game2:"08s",
+//         game3:"05s",
+//         game4:"04s",
+//         game5:"11s",
+//         game6:"03s",
+//         game7:"10s",
+//         game8:"02s",
+//         game9:"01e",
+//         game10:"08e",
+//         game11:"05e",
+//         game12:"04e",
+//         game13:"11e",
+//         game14:"03e",
+//         game15:"10e",
+//         game16:"02e",
+//         game17:"01m",
+//         game18:"08m",
+//         game19:"05m",
+//         game20:"04m",
+//         game21:"11m",
+//         game22:"03m",
+//         game23:"10m",
+//         game24:"02m",
+//         game25:"01w",
+//         game26:"08w",
+//         game27:"05w",
+//         game28:"04w",
+//         game29:"11w",
+//         game30:"03w",
+//         game31:"10w",
+//         game32:"02w",
+//     }
+// };
 
 var dave = $("<img>", {
     class: "small-circle",
     alt: "Dave",
     src: "assets/profile/dave.png"
+});
+
+var david = $("<img>", {
+    class: "small-circle",
+    alt: "Dave",
+    src: "assets/profile/david.png"
 });
 
 var april = $("<img>", {
@@ -20,12 +142,6 @@ var caleb = $("<img>", {
     class: "small-circle",
     alt: "Caleb",
     src: "assets/profile/caleb.png"
-});
-
-var ethan = $("<img>", {
-    class: "small-circle",
-    alt: "Ethan",
-    src: "assets/profile/ethan.png"
 });
 
 var katie = $("<img>", {
@@ -88,22 +204,10 @@ var rachel = $("<img>", {
     src: "assets/profile/rachel.png"
 });
 
-var shea = $("<img>", {
-    class: "small-circle",
-    alt: "Shea",
-    src: "assets/profile/shea.png"
-});
-
 var christine = $("<img>", {
     class: "small-circle",
     alt: "Christine",
     src: "assets/profile/christine.png"
-});
-
-var tim = $("<img>", {
-    class: "small-circle",
-    alt: "Tim",
-    src: "assets/profile/tim.png"
 });
 
 var nick = $("<img>", {
@@ -118,23 +222,10 @@ var luke = $("<img>", {
     src: "assets/profile/luke.png"
 });
 
-var sabrina = $("<img>", {
-    class: "small-circle",
-    alt: "Sabrina",
-    src: "assets/profile/sabrina.jpg"
-});
-
-var miriam = $("<img>", {
-    class: "small-circle",
-    alt: "Miriam",
-    src: "assets/profile/miriam.png"
-});
-
 $(".david").append(david);
 $(".dave").append(dave);
 $(".april").append(april);
 $(".caleb").append(caleb);
-$(".ethan").append(ethan);
 $(".katie").append(katie);
 $(".matt").append(matt);
 $(".paige").append(paige);
@@ -145,126 +236,6 @@ $(".susan").append(susan);
 $(".hyrum").append(hyrum);
 $(".rachel").append(rachel);
 $(".levi").append(levi);
-$(".shea").append(shea);
 $(".nick").append(nick);
 $(".luke").append(luke);
-$(".tim").append(tim);
 $(".christine").append(christine);
-$(".miriam").append(miriam);
-$(".sabrina").append(sabrina);
-
-
-
-
-// var davidMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "David",
-//     src: "assets/profile/david.jpg"
-// });
-
-// var daveMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Dave",
-//     src: "assets/profile/dave.jpg"
-// });
-
-// var aprilMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "April",
-//     src: "assets/profile/april.jpg"
-// });
-
-// var calebMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Caleb",
-//     src: "assets/profile/caleb.jpg"
-// });
-
-// var ethanMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Ethan",
-//     src: "assets/profile/ethan.png"
-// });
-
-// var katieMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Katie",
-//     src: "assets/profile/katie.jpg"
-// });
-
-// var mattMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Katie",
-//     src: "assets/profile/matt.jpg"
-// });
-
-// var paigeMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Paige",
-//     src: "assets/profile/paige.jpg"
-// });
-
-// var noahMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Noah",
-//     src: "assets/profile/noah.jpg"
-// });
-
-// var reedMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Reed",
-//     src: "assets/profile/reed.jpg"
-// });
-
-// var dennisMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Dennis",
-//     src: "assets/profile/dennis.jpg"
-// });
-
-// var susanMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Susan",
-//     src: "assets/profile/susan.png"
-// });
-
-// var hyrumMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Hyrum",
-//     src: "assets/profile/hyrum2.jpg"
-// });
-
-// var leviMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Levi",
-//     src: "assets/profile/levi2.jpg"
-// });
-
-// var rachelMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Rachel",
-//     src: "assets/profile/rachel.jpg"
-// });
-
-// var sheaMed = $("<img>", {
-//     class: "med-circle",
-//     alt: "Shea",
-//     src: "assets/profile/shea.png"
-// });
-
-// $(".david").append(davidMed);
-// $(".dave").append(daveMed);
-// $(".april").append(aprilMed);
-// $(".caleb").append(calebMed);
-// $(".ethan").append(ethanMed);
-// $(".katie").append(katieMed);
-// $(".matt").append(mattMed);
-// $(".paige").append(paigeMed);
-// $(".noah").append(noahMed);
-// $(".reed").append(reedMed);
-// $(".dennis").append(dennisMed);
-// $(".susan").append(susanMed);
-// $(".hyrum").append(hyrumMed);
-// $(".rachel").append(rachelMed);
-// $(".levi").append(leviMed);
-// $(".shea").append(sheaMed);
