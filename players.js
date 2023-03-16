@@ -192,10 +192,10 @@ var hyrum = $("<img>", {
     src: "assets/profile/hyrum.png"
 });
 
-var levi = $("<img>", {
+var suzy = $("<img>", {
     class: "small-circle",
-    alt: "Levi",
-    src: "assets/profile/levi2.jpg"
+    alt: "Suzy",
+    src: "assets/profile/suzy.jpg"
 });
 
 var rachel = $("<img>", {
@@ -239,3 +239,4 @@ $(".levi").append(levi);
 $(".nick").append(nick);
 $(".luke").append(luke);
 $(".christine").append(christine);
+$(".suzy").append(suzy);
