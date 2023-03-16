@@ -192,6 +192,12 @@ var hyrum = $("<img>", {
     src: "assets/profile/hyrum.png"
 });
 
+var levi = $("<img>", {
+    class: "small-circle",
+    alt: "Levi",
+    src: "assets/profile/levi2.jpg"
+});
+
 var suzy = $("<img>", {
     class: "small-circle",
     alt: "Suzy",
@@ -222,6 +228,8 @@ var luke = $("<img>", {
     src: "assets/profile/luke.png"
 });
 
+
+$(".suzy").append(suzy);
 $(".david").append(david);
 $(".dave").append(dave);
 $(".april").append(april);
@@ -239,4 +247,4 @@ $(".levi").append(levi);
 $(".nick").append(nick);
 $(".luke").append(luke);
 $(".christine").append(christine);
-$(".suzy").append(suzy);
+
