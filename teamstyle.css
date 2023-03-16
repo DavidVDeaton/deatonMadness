@@ -438,6 +438,14 @@
     background-position-y: center;
 }
 
+#Princeton {
+    background-image: url("assets/princeton.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #UAB {
     background-image: url("assets/uab.png");
     background-repeat: no-repeat;
