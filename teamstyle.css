@@ -502,6 +502,14 @@
     background-position-y: center;  
 }
 
+#Charleston {
+    background-image: url("assets/charleston.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center; 
+    background-position-y: center;  
+}
+
 #NorfolkSt {
     background-image: url("assets/norfolk.png");
     background-repeat: no-repeat;
