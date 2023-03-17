@@ -126,8 +126,24 @@
     background-position-y: center;
 }
 
+#NCState {
+    background-image: url("assets/ncstate.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #Indiana {
     background-image: url("assets/ind.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Iona {
+    background-image: url("assets/iona.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
