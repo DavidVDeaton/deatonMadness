@@ -22,6 +22,22 @@
     background-position-y: center;
 }
 
+#Drake {
+    background-image: url("assets/drake.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#FDU {
+    background-image: url("assets/fdu.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #GeorgiaSt {
     background-image: url("assets/georgiast.png");
     background-repeat: no-repeat;
