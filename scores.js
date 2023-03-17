@@ -440,7 +440,7 @@ let gm21 = {
 let gm22 = {
     team1:"03m",
     team2:"14m",
-    winner: "",
+    winner: "03m",
     fav:[],
     und:[],
     score:0
@@ -512,7 +512,7 @@ let gm29 = {
 let gm30 = {
     team1:"03w",
     team2:"14w",
-    winner: "03w",
+    winner: "",
     fav:[],
     und:[],
     score:0
