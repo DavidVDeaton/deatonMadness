@@ -559,10 +559,8 @@ for (let i=0; i<players.length; i++) {
     }
 }
 
-
 let ordered = players.sort(
     (p1, p2) => (p1.score < p2.score) ? 1 : (p1.score > p2.score) ? -1 : 0);
-
 
 let leaderRows = "";
 ordered.forEach((player) => {
