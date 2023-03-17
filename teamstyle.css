@@ -30,6 +30,14 @@
     background-position-y: center;
 }
 
+#GCU {
+    background-image: url("assets/gcu.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #FDU {
     background-image: url("assets/fdu.png");
     background-repeat: no-repeat;
@@ -270,6 +278,14 @@
     background-position-y: center;
 }
 
+#ASU {
+    background-image: url("assets/asu.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #ColoradoSt {
     background-image: url("assets/colost.png");
     background-repeat: no-repeat;
@@ -288,6 +304,22 @@
 
 #Longwood {
     background-image: url("assets/longwood.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#FAU {
+    background-image: url("assets/fau.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#KansasSt {
+    background-image: url("assets/kansasst.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
