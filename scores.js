@@ -55,7 +55,7 @@ let paigePicks = {
 
 let noahPicks = {
     name: "noah",
-    medal: "silver",
+    medal: "gold",
     score: 0,
     picks: [
         "01s","09s","05s","13s","06s","03s","10s","02s",
@@ -67,7 +67,7 @@ let noahPicks = {
 
 let davidPicks = {
     name: "david",
-    medal: "bronze",
+    medal: "silver",
     score: 0,
     picks: [
         "01s","08s","05s","13s","11s","03s","10s","02s",
@@ -198,7 +198,7 @@ let lukePicks = {
 
 let christinePicks = {
     name: "christine",
-    medal: "gold",
+    medal: "bronze",
     score: 0,
     picks: [
         "01s","08s","05s","04s","06s","03s","07s","02s",
