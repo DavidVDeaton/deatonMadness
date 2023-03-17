@@ -174,6 +174,22 @@
     background-position-y: center;
 }
 
+#Louisianna {
+    background-image: url("assets/louisianna.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#UNCAsheville {
+    background-image: url("assets/uncasheville.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #NewMexicoSt {
     background-image: url("assets/nmst.png");
     background-repeat: no-repeat;
