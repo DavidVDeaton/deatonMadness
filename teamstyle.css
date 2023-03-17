@@ -30,6 +30,14 @@
     background-position-y: center;
 }
 
+#Pitt {
+    background-image: url("assets/pitt.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #OralRoberts {
     background-image: url("assets/oralroberts.png");
     background-repeat: no-repeat;
@@ -152,6 +160,14 @@
 
 #StMarys {
     background-image: url("assets/stmarys.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#VCU {
+    background-image: url("assets/vcu.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
