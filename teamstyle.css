@@ -14,6 +14,14 @@
     background-position-y: center;
 }
 
+#NoKentucky {
+    background-image: url("assets/nkentucky.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #GeorgiaSt {
     background-image: url("assets/georgiast.png");
     background-repeat: no-repeat;
