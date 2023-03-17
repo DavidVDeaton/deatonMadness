@@ -1,1 +1,1 @@
-
+scoresFunction();

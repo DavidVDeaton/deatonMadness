@@ -190,6 +190,30 @@
     background-position-y: center;
 }
 
+#Xavier {
+    background-image: url("assets/xavier.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#KennesawSt {
+    background-image: url("assets/kennesaw.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#UCSB {
+    background-image: url("assets/ucsb.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #NewMexicoSt {
     background-image: url("assets/nmst.png");
     background-repeat: no-repeat;
