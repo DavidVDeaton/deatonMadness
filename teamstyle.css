@@ -14,6 +14,14 @@
     background-position-y: center;
 }
 
+#OralRoberts {
+    background-image: url("assets/oralroberts.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #SetonHall {
     background-image: url("assets/seton.png");
     background-repeat: no-repeat;
