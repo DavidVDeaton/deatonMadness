@@ -55,6 +55,7 @@ let paigePicks = {
 
 let noahPicks = {
     name: "noah",
+    medal: "silver",
     score: 0,
     picks: [
         "01s","09s","05s","13s","06s","03s","10s","02s",
@@ -66,6 +67,7 @@ let noahPicks = {
 
 let davidPicks = {
     name: "david",
+    medal: "bronze",
     score: 0,
     picks: [
         "01s","08s","05s","13s","11s","03s","10s","02s",
@@ -196,6 +198,7 @@ let lukePicks = {
 
 let christinePicks = {
     name: "christine",
+    medal: "gold",
     score: 0,
     picks: [
         "01s","08s","05s","04s","06s","03s","07s","02s",
@@ -560,15 +563,11 @@ let ordered = players.sort(
     (p1, p2) => (p1.score < p2.score) ? 1 : (p1.score > p2.score) ? -1 : 0);
 
 
-console.log(players[0].name, players[0].score);
-console.log(players[1].name, players[1].score);
-console.log(players[2].name, players[2].score);
-
 let leaderRows = "";
 ordered.forEach((player) => {
     leaderRows +=
     `<div class="gm20">
-        <div class="scores">
+        <div class="scores ${player.medal}">
             <div class="${player.name}"></div>
             <div><h3>${player.name}</h3></div>
             <div><h3>${player.score.toFixed(2)}</h3></div>
