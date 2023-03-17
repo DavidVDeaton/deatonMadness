@@ -294,6 +294,22 @@
     background-position-y: center;
 }
 
+#TexasAM {
+    background-image: url("assets/tam.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#PennSt {
+    background-image: url("assets/pennst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #TexasAMCC {
     background-image: url("assets/texasamcc.png");
     background-repeat: no-repeat;
