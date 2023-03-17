@@ -332,7 +332,7 @@ let gm11 = {
 let gm12 = {
     team1:"04e",
     team2:"13e",
-    winner: "",
+    winner: "04e",
     fav:[],
     und:[],
     score:0
@@ -377,7 +377,7 @@ let gm16 = {
 let gm17 = {
     team1:"01m",
     team2:"16m",
-    winner: "",
+    winner: "01m",
     fav:[],
     und:[],
     score:0
@@ -431,7 +431,7 @@ let gm22 = {
 let gm23 = {
     team1:"07m",
     team2:"10m",
-    winner: "",
+    winner: "10m",
     fav:[],
     und:[],
     score:0
@@ -512,7 +512,7 @@ let gm31 = {
 let gm32 = {
     team1:"02w",
     team2:"15w",
-    winner: "",
+    winner: "02w",
     fav:[],
     und:[],
     score:0
@@ -556,9 +556,23 @@ for (let i=0; i<players.length; i++) {
     }
 }
 
-players.sort(players.score);
+let ordered = players.sort(
+    (p1, p2) => (p1.score < p2.score) ? 1 : (p1.score > p2.score) ? -1 : 0);
+
 
 console.log(players[0].name, players[0].score);
 console.log(players[1].name, players[1].score);
 console.log(players[2].name, players[2].score);
 
+let leaderRows = "";
+ordered.forEach((player) => {
+    leaderRows +=
+    `<div class="gm20">
+        <div class="scores">
+            <div class="${player.name}"></div>
+            <div><h3>${player.name}</h3></div>
+            <div><h3>${player.score.toFixed(2)}</h3></div>
+        </div>
+    </div>`
+});
+document.querySelector(".scoreboard").innerHTML = leaderRows;
