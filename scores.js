@@ -110,7 +110,7 @@ let paigePicks = {
 
 let noahPicks = {
     name: "noah",
-    medal: "bronze",
+    medal: "silver",
     score: 0,
     picks: [
         "01s","09s","05s","13s","06s","03s","10s","02s",
@@ -330,7 +330,7 @@ let nickPicks = {
 
 let lukePicks = {
     name: "luke",
-    medal: "bronze",
+    medal: "silver",
     score: 0,
     picks: [
         "01s","08s","05s","04s","11s","03s","07s","02s",
@@ -375,7 +375,7 @@ let christinePicks = {
 let leviPicks = {
     name: "levi",
     score: 0,
-    medal: "silver",
+    medal: "",
     picks: [
         "16s","08s","12s","04s","11s","14s","10s","02s",
         "16e","09e","12e","13e","06e","03e","07e","02e",
@@ -698,7 +698,7 @@ let gm33 = {
 let gm34 = {
     team1:"05s",
     team2:"13s",
-    winner: "",
+    winner: "05s",
     fav:[],
     und:[],
     score:0
@@ -834,9 +834,9 @@ let games = [
     gm1,gm2,gm3,gm4,gm5,gm6,gm7,gm8,
     gm9,gm10,gm11,gm12,gm13,gm14,gm15,gm16,
     gm17,gm18,gm19,gm20,gm21,gm22,gm23,gm24,
-    gm25,gm26,gm27,gm28,gm29,gm30,gm31,gm32
-    // gm33,gm34,gm35,gm36,gm37,gm38,gm39,gm40,
-    // gm41,gm42,gm43,gm44,gm45,gm46,gm47,gm48
+    gm25,gm26,gm27,gm28,gm29,gm30,gm31,gm32,
+    gm33,gm34,gm35,gm36,gm37,gm38,gm39,gm40,
+    gm41,gm42,gm43,gm44,gm45,gm46,gm47,gm48
 ];
 
 for (let i=0; i<players.length; i++) {
