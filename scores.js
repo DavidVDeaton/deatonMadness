@@ -330,7 +330,7 @@ let nickPicks = {
 
 let lukePicks = {
     name: "luke",
-    medal: "",
+    medal: "bronze",
     score: 0,
     picks: [
         "01s","08s","05s","04s","11s","03s","07s","02s",
