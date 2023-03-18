@@ -150,6 +150,14 @@
     background-position-y: center;
 }
 
+#KentSt {
+    background-image: url("assets/kentst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #NCState {
     background-image: url("assets/ncstate.png");
     background-repeat: no-repeat;
