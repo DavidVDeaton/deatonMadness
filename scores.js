@@ -232,7 +232,7 @@ let lukePicks = {
 
 let christinePicks = {
     name: "christine",
-    medal: "silver",
+    medal: "gold",
     score: 0,
     picks: [
         "01s","08s","05s","04s","06s","03s","07s","02s",
@@ -255,7 +255,7 @@ let christinePicks = {
 let leviPicks = {
     name: "levi",
     score: 0,
-    medal: "gold",
+    medal: "silver",
     picks: [
         "16s","08s","12s","04s","11s","14s","10s","02s",
         "16e","09e","12e","13e","06e","03e","07e","02e",
@@ -442,7 +442,7 @@ let gm19 = {
 let gm20 = {
     team1:"04m",
     team2:"13m",
-    winner: "",
+    winner: "04m",
     fav:[],
     und:[],
     score:0
