@@ -689,7 +689,7 @@ let gm32 = {
 let gm33 = {
     team1:"01s",
     team2:"08s",
-    winner: "",
+    winner: "01s",
     fav:[],
     und:[],
     score:0
