@@ -132,7 +132,7 @@ let noahPicks = {
 
 let davidPicks = {
     name: "david",
-    medal: "silver",
+    medal: "gold",
     score: 0,
     picks: [
         "01s","08s","05s","13s","11s","03s","10s","02s",
@@ -330,7 +330,7 @@ let nickPicks = {
 
 let lukePicks = {
     name: "luke",
-    medal: "gold",
+    medal: "silver",
     score: 0,
     picks: [
         "01s","08s","05s","04s","11s","03s","07s","02s",
@@ -806,7 +806,7 @@ let gm45 = {
 let gm46 = {
     team1:"04w",
     team2:"05w",
-    winner: "",
+    winner: "04w",
     fav:[],
     und:[],
     score:0
