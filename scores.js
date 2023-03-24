@@ -22,7 +22,7 @@ let calebPicks = {
 
 let suzyPicks = {
     name: "suzy",
-    medal: "gold",
+    medal: "",
     score: 0,
     picks: [
         "01s","08s","05s","04s","06s","03s","10s","02s",
@@ -44,7 +44,7 @@ let suzyPicks = {
 
 let hyrumPicks = {
     name: "hyrum",
-    medal: "",
+    medal: "bronze",
     score: 0,
     picks: [
         "01s","08s","05s","04s","06s","03s","10s","02s",
@@ -132,7 +132,7 @@ let noahPicks = {
 
 let davidPicks = {
     name: "david",
-    medal: "bronze",
+    medal: "silver",
     score: 0,
     picks: [
         "01s","08s","05s","13s","11s","03s","10s","02s",
@@ -264,7 +264,7 @@ let susanPicks = {
 
 let dennisPicks = {
     name: "dennis",
-    medal: "",
+    medal: "gold",
     score: 0,
     picks: [
         "01s","09s","05s","13s","11s","03s","10s","02s",
@@ -352,7 +352,7 @@ let lukePicks = {
 
 let christinePicks = {
     name: "christine",
-    medal: "silver",
+    medal: "",
     score: 0,
     picks: [
         "01s","08s","05s","04s","06s","03s","07s","02s",
@@ -831,8 +831,8 @@ let gm48 = {
 }
 
 let gm49 = {
-    team1:"07e",
-    team2:"03e",
+    team1:"05s",
+    team2:"01s",
     winner: "",
     fav:[],
     und:[],
@@ -840,8 +840,8 @@ let gm49 = {
 }
 
 let gm50 = {
-    team1:"08w",
-    team2:"04w",
+    team1:"15s",
+    team2:"06s",
     winner: "",
     fav:[],
     und:[],
@@ -858,24 +858,15 @@ let gm51 = {
 }
 
 let gm52 = {
-    team1:"02w",
-    team2:"03w",
-    winner: "",
+    team1:"07e",
+    team2:"03e",
+    winner: "03e",
     fav:[],
     und:[],
     score:0
 }
 
 let gm53 = {
-    team1:"05s",
-    team2:"01s",
-    winner: "",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm54 = {
     team1:"05m",
     team2:"01m",
     winner: "",
@@ -884,18 +875,27 @@ let gm54 = {
     score:0
 }
 
-let gm55 = {
-    team1:"15s",
-    team2:"06s",
+let gm54 = {
+    team1:"02m",
+    team2:"03m",
     winner: "",
     fav:[],
     und:[],
     score:0
 }
 
+let gm55 = {
+    team1:"08w",
+    team2:"04w",
+    winner: "04w",
+    fav:[],
+    und:[],
+    score:0
+}
+
 let gm56 = {
-    team1:"02m",
-    team2:"03m",
+    team1:"02w",
+    team2:"03w",
     winner: "",
     fav:[],
     und:[],
@@ -925,11 +925,19 @@ for (let i=0; i<players.length; i++) {
 
 // Scores Set to Game
 
-for (let j=0; j<games.length; j++) {
+for (let j=0; j<48; j++) {
     if (games[j].winner === games[j].team1) {
         games[j].score = (participants/games[j].fav.length);
     } else if (games[j].winner === games[j].team2) {
         games[j].score = (participants/games[j].und.length);
+    }
+}
+
+for (let j=48; j<games.length; j++) {
+    if (games[j].winner === games[j].team1) {
+        games[j].score = ((participants*2)/games[j].fav.length);
+    } else if (games[j].winner === games[j].team2) {
+        games[j].score = ((participants*2)/games[j].und.length);
     }
 }
 
