@@ -793,7 +793,7 @@ let gm31 = {
 let gm32 = {
     team1:"02w",
     team2:"15w",
-    winner: "",
+    winner: "02w",
     fav:[],
     und:[],
     score:0
