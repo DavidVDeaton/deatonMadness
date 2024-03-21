@@ -460,9 +460,9 @@ let leviPicks = {
     ]
 };
 
-let players = [calebPicks, susanPicks, dennisPicks, leviPicks, mattPicks, rachelPicks, reedPicks, katiePicks, paigePicks, lukePicks, nickPicks, christinePicks, suzyPicks, noahPicks, davidPicks, davePicks, aprilPicks, dawsonPicks];
+let players = [susanPicks, dennisPicks, mattPicks, katiePicks, noahPicks, davidPicks, jamesPicks, mabryPicks];
 
-const participants = 18;
+const participants = 8;
 
 let gm1 = {
     team1:"01s",
@@ -1024,7 +1024,7 @@ for (let i=0; i<players.length; i++) {
 
 // Scores Set to Game
 
-for (let j=0; j<48; j++) {
+for (let j=0; j<32; j++) {
     if (games[j].winner === games[j].team1) {
         games[j].score = (participants/games[j].fav.length);
     } else if (games[j].winner === games[j].team2) {
@@ -1032,13 +1032,13 @@ for (let j=0; j<48; j++) {
     }
 }
 
-for (let j=48; j<games.length; j++) {
-    if (games[j].winner === games[j].team1) {
-        games[j].score = ((participants*2)/games[j].fav.length);
-    } else if (games[j].winner === games[j].team2) {
-        games[j].score = ((participants*2)/games[j].und.length);
-    }
-}
+// for (let j=48; j<games.length; j++) {
+//     if (games[j].winner === games[j].team1) {
+//         games[j].score = ((participants*2)/games[j].fav.length);
+//     } else if (games[j].winner === games[j].team2) {
+//         games[j].score = ((participants*2)/games[j].und.length);
+//     }
+// }
 
 // Scores Set to Player
 
