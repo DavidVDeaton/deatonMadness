@@ -176,7 +176,7 @@ let davidPicks = {
 
 let jamesPicks = {
     name: "james",
-    medal: "silver",
+    medal: "bronze",
     score: 0,
     picks: [
         "01s","08s","12s","04s","11s","14s","10s","15s",
@@ -631,7 +631,7 @@ let gm13 = {
 let gm14 = {
     team1:"03e",
     team2:"14e",
-    winner: "",
+    winner: "03e",
     fav:[],
     und:[],
     score:0
