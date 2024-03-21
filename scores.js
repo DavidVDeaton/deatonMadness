@@ -622,7 +622,7 @@ let gm12 = {
 let gm13 = {
     team1:"06e",
     team2:"11e",
-    winner: "",
+    winner: "11e",
     fav:[],
     und:[],
     score:0
