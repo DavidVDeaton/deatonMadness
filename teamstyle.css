@@ -22,6 +22,14 @@
     background-position-y: center;
 }
 
+#WashingtonSt {
+    background-image: url("assets/washingtonst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #Drake {
     background-image: url("assets/drake.png");
     background-repeat: no-repeat;
@@ -70,6 +78,14 @@
     background-position-y: center;
 }
 
+#MoreheadSt {
+    background-image: url("assets/morehead.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #SetonHall {
     background-image: url("assets/seton.png");
     background-repeat: no-repeat;
@@ -112,6 +128,14 @@
 
 #Davidson {
     background-image: url("assets/davidson.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Dayton {
+    background-image: url("assets/dayton.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -318,6 +342,14 @@
     background-position-y: center;
 }
 
+#LongBeachSt {
+    background-image: url("assets/longbeachst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #FAU {
     background-image: url("assets/fau.png");
     background-repeat: no-repeat;
@@ -390,6 +422,14 @@
     background-position-y: center;
 }
 
+#SouthCarolina {
+    background-image: url("assets/southcarolina.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #SouthDakotaSt {
     background-image: url("assets/sodakotast.png");
     background-repeat: no-repeat;
@@ -414,8 +454,24 @@
     background-position-y: center;
 }
 
+#Wagner {
+    background-image: url("assets/wagner.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #Missouri {
     background-image: url("assets/missouri.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#MissSt {
+    background-image: url("assets/mississippist.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -432,6 +488,30 @@
 
 #PennSt {
     background-image: url("assets/pennst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Samford {
+    background-image: url("assets/samford.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Oakland {
+    background-image: url("assets/oakland.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#McNeese {
+    background-image: url("assets/mcneese.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -486,6 +566,14 @@
     background-position-y: center;
 }
 
+#Nevada {
+    background-image: url("assets/nevada.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;    
+    background-position-y: center;
+}
+
 #Tennessee {
     background-image: url("assets/tenn.png");
     background-repeat: no-repeat;
@@ -500,6 +588,14 @@
     background-size: 130px 130px;
     background-position-x: center;  
     background-position-y: center; 
+}
+
+#Oregon {
+    background-image: url("assets/oregon.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;    
+    background-position-y: center;
 }
 
 #Baylor {
@@ -542,8 +638,24 @@
     background-position-y: center;
 }
 
+#BYU {
+    background-image: url("assets/byu.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #Duke {
     background-image: url("assets/duke.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Duquesne {
+    background-image: url("assets/duquesne.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;

@@ -1,7 +1,7 @@
 body {
     display: grid;
     place-items: center;
-    background-color: #191919;
+    background-color: #797979;
     background-repeat: no-repeat;
     background-size: cover;
     color: seashell;
@@ -45,6 +45,7 @@ main {
     object-position: center top;
     border: 3px solid rgba(0,0,0,.1);
     justify-self: start;
+    border: solid 2px white;
 }
 
 .med-circle {

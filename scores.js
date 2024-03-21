@@ -42,27 +42,27 @@ let suzyPicks = {
     ]  
 };
 
-let hyrumPicks = {
-    name: "hyrum",
-    medal: "",
-    score: 0,
-    picks: [
-        "01s","08s","05s","04s","06s","03s","10s","02s",
-        "01e","08e","05e","04e","06e","03e","07e","02e",
-        "01m","09m","05m","04m","06m","03m","07m","02m",
-        "01w","08w","05w","04w","06w","03w","10w","02w",
-        "01s","04s","03s","02s",
-        "01e","04e","03e","02e",
-        "01m","05m","06m","02m",
-        "01w","04w","03w","02w",
-        "01s","02s",
-        "04e","03e",
-        "01m","02m",
-        "01w","02w",
-        "01s","04e","02m","01w"
-        // "04e","02m","02m"
-    ]  
-};
+// let hyrumPicks = {
+//     name: "hyrum",
+//     medal: "",
+//     score: 0,
+//     picks: [
+//         "01s","08s","05s","04s","06s","03s","10s","02s",
+//         "01e","08e","05e","04e","06e","03e","07e","02e",
+//         "01m","09m","05m","04m","06m","03m","07m","02m",
+//         "01w","08w","05w","04w","06w","03w","10w","02w",
+//         "01s","04s","03s","02s",
+//         "01e","04e","03e","02e",
+//         "01m","05m","06m","02m",
+//         "01w","04w","03w","02w",
+//         "01s","02s",
+//         "04e","03e",
+//         "01m","02m",
+//         "01w","02w",
+//         "01s","04e","02m","01w"
+//         // "04e","02m","02m"
+//     ]  
+// };
 
 let reedPicks = {
     name: "reed",
@@ -113,19 +113,19 @@ let noahPicks = {
     medal: "",
     score: 0,
     picks: [
-        "01s","09s","05s","13s","06s","03s","10s","02s",
-        "01e","08e","12e","04e","06e","03e","07e","02e",
-        "01m","08m","12m","04m","06m","03m","10m","02m",
-        "01w","08w","05w","04w","06w","03w","07w","02w",
-        "01s","05s","03s","02s",
-        "01e","04e","06e","02e",
-        "01m","04m","06m","02m",
-        "01w","04w","03w","07w",
-        "01s","03s",
-        "01e","06e",
-        "01m","06m",
-        "01w","07w",
-        "03s","01e","01m","01w"
+        "01s","09s","05s","04s","06s","03s","07s","02s",
+        "01e","09e","05e","04e","11e","03e","10e","02e",
+        "01m","08m","05m","04m","11m","03m","07m","02m",
+        "01w","08w","12w","04w","11w","03w","10w","02w"
+        // "01s","05s","03s","02s",
+        // "01e","04e","06e","02e",
+        // "01m","04m","06m","02m",
+        // "01w","04w","03w","07w",
+        // "01s","03s",
+        // "01e","06e",
+        // "01m","06m",
+        // "01w","07w",
+        // "03s","01e","01m","01w"
         // "01e","01m","01m"
     ]  
 };
@@ -135,19 +135,63 @@ let davidPicks = {
     medal: "",
     score: 0,
     picks: [
-        "01s","08s","05s","13s","11s","03s","10s","02s",
-        "01e","08e","05e","04e","11e","03e","07e","02e",
-        "01m","08m","05m","04m","06m","03m","07m","02m",
-        "01w","08w","05w","04w","06w","14w","10w","02w",
-        "01s","05s","03s","02s",
-        "01e","04e","03e","07e",
-        "01m","04m","03m","07m",
-        "01w","04w","06w","02w",
-        "01s","03s",
-        "01e","03e",
-        "01m","07m",
-        "01w","06w",
-        "03s","03e","07m","01w"
+        "01s","09s","05s","04s","06s","03s","10s","02s",
+        "01e","09e","05e","04e","06e","03e","07e","02e",
+        "01m","09m","12m","13m","06m","03m","07m","02m",
+        "01w","09w","12w","04w","06w","03w","10w","02w"
+        // "01s","05s","03s","02s",
+        // "01e","04e","03e","07e",
+        // "01m","04m","03m","07m",
+        // "01w","04w","06w","02w",
+        // "01s","03s",
+        // "01e","03e",
+        // "01m","07m",
+        // "01w","06w",
+        // "03s","03e","07m","01w"
+        // "03s","01w","03s"
+    ]  
+};
+
+let jamesPicks = {
+    name: "james",
+    medal: "",
+    score: 0,
+    picks: [
+        "01s","08s","12s","04s","11s","14s","10s","15s",
+        "01e","09e","12e","04e","11e","14e","07e","15e",
+        "01m","09m","05m","13m","06m","03m","07m","15m",
+        "01w","08w","12w","13w","06w","14w","10w","02w"
+        // "01s","05s","03s","02s",
+        // "01e","04e","03e","07e",
+        // "01m","04m","03m","07m",
+        // "01w","04w","06w","02w",
+        // "01s","03s",
+        // "01e","03e",
+        // "01m","07m",
+        // "01w","06w",
+        // "03s","03e","07m","01w"
+        // "03s","01w","03s"
+    ]  
+};
+
+let mabryPicks = {
+    name: "mabry",
+    medal: "",
+    score: 0,
+    picks: [
+        "16s","09s","05s","04s","11s","14s","10s","02s",
+        "01e","09e","12e","04e","06e","14e","07e","15e",
+        "01m","09m","05m","13m","11m","03m","10m","02m",
+        "16w","09w","05w","04w","06w","03w","07w","02w"
+        // "01s","05s","03s","02s",
+        // "01e","04e","03e","07e",
+        // "01m","04m","03m","07m",
+        // "01w","04w","06w","02w",
+        // "01s","03s",
+        // "01e","03e",
+        // "01m","07m",
+        // "01w","06w",
+        // "03s","03e","07m","01w"
         // "03s","01w","03s"
     ]  
 };
@@ -201,19 +245,19 @@ let katiePicks = {
     medal: "",
     score: 0,
     picks: [
-        "01s","09s","05s","04s","06s","03s","10s","02s",
-        "01e","08e","05e","04e","06e","03e","10e","02e",
-        "01m","09m","05m","04m","06m","03m","10m","02m",
-        "01w","09w","05w","04w","11w","03w","10w","02w",
-        "01s","05s","03s","02s",
-        "01e","05e","03e","02e",
-        "01m","05m","03m","02m",
-        "01w","05w","03w","02w",
-        "01s","03s",
-        "01e","02e",
-        "01m","03m",
-        "05w","03w",
-        "03s","02e","03m","03w"
+        "01s","09s","05s","04s","06s","03s","07s","02s",
+        "01e","09e","05e","04e","06e","03e","07e","02e",
+        "01m","08m","05m","04m","06m","03m","07m","15m",
+        "01w","09w","12w","04w","06w","03w","07w","02w"
+        // "01s","05s","03s","02s",
+        // "01e","05e","03e","02e",
+        // "01m","05m","03m","02m",
+        // "01w","05w","03w","02w",
+        // "01s","03s",
+        // "01e","02e",
+        // "01m","03m",
+        // "05w","03w",
+        // "03s","02e","03m","03w"
         // "03s","03w","03s"
     ]
 };
@@ -223,19 +267,19 @@ let mattPicks = {
     medal: "",
     score: 0,
     picks: [
-        "01s","09s","12s","04s","06s","03s","10s","02s",
-        "01e","08e","05e","13e","06e","03e","10e","02e",
-        "01m","08m","05m","04m","11m","03m","10m","02m",
-        "01w","08w","05w","04w","11w","03w","10w","02w",
-        "01s","04s","03s","02s",
-        "01e","05e","03e","02e",
-        "01m","04m","11m","02m",
-        "01w","05w","03w","02w",
-        "04s","03s",
-        "01e","02e",
-        "01m","02m",
-        "01w","02w",
-        "03s","01e","01m","02w"
+        "01s","09s","12s","04s","11s","03s","10s","02s",
+        "01e","09e","05e","04e","06e","14e","10e","02e",
+        "01m","09m","05m","04m","11m","03m","07m","02m",
+        "01w","09w","12w","13w","06w","03w","07w","02w"
+        // "01s","04s","03s","02s",
+        // "01e","05e","03e","02e",
+        // "01m","04m","11m","02m",
+        // "01w","05w","03w","02w",
+        // "04s","03s",
+        // "01e","02e",
+        // "01m","02m",
+        // "01w","02w",
+        // "03s","01e","01m","02w"
         // "01e","01m","01m"
     ]
 };
@@ -245,41 +289,63 @@ let susanPicks = {
     medal: "",
     score: 0,
     picks: [
-        "01s","08s","05s","04s","11s","03s","10s","02s",
-        "01e","08e","05e","04e","06e","03e","07e","02e",
-        "01m","08m","05m","04m","06m","03m","10m","02m",
-        "01w","09w","05w","04w","11w","03w","10w","02w",
-        "01s","04s","03s","02s",
-        "01e","05e","03e","07e",
-        "01m","05m","03m","02m",
-        "01w","04w","03w","02w",
-        "01s","02s",
-        "01e","03e",
-        "01m","02m",
-        "01w","03w",
-        "02s","01e","02m","01w"
+        "01s","08s","12s","04s","06s","03s","07s","02s",
+        "01e","08e","05e","04e","06e","03e","10e","02e",
+        "01m","09m","12m","04m","11m","03m","07m","02m",
+        "01w","09w","12w","04w","11w","03w","10w","02w"
+        // "01s","04s","03s","02s",
+        // "01e","05e","03e","07e",
+        // "01m","05m","03m","02m",
+        // "01w","04w","03w","02w",
+        // "01s","02s",
+        // "01e","03e",
+        // "01m","02m",
+        // "01w","03w",
+        // "02s","01e","02m","01w"
         // "02s","01w","02s"
     ]
 };
 
 let dennisPicks = {
     name: "dennis",
-    medal: "bronze",
+    medal: "",
     score: 0,
     picks: [
-        "01s","09s","05s","13s","11s","03s","10s","02s",
-        "01e","08e","05e","04e","06e","03e","07e","02e",
-        "01m","09m","12m","04m","06m","03m","07m","02m",
-        "01w","09w","12w","04w","11w","03w","10w","02w",
-        "01s","05s","03s","02s",
-        "08e","05e","03e","02e",
-        "01m","04m","03m","02m",
-        "01w","04w","03w","02w",
-        "01s","02s",
-        "08e","02e",
-        "01m","03m",
-        "04w","02w",
-        "02s","02e","01m","02w"
+        "01s","09s","05s","04s","11s","03s","07s","02s",
+        "01e","09e","05e","04e","06e","03e","10e","02e",
+        "01m","09m","05m","04m","11m","03m","07m","02m",
+        "01w","09w","12w","04w","11w","03w","10w","02w"
+        // "01s","05s","03s","02s",
+        // "08e","05e","03e","02e",
+        // "01m","04m","03m","02m",
+        // "01w","04w","03w","02w",
+        // "01s","02s",
+        // "08e","02e",
+        // "01m","03m",
+        // "04w","02w",
+        // "02s","02e","01m","02w"
+        // "02s","01m","01m"
+    ]
+};
+
+let dawsonPicks = {
+    name: "dawson",
+    medal: "",
+    score: 0,
+    picks: [
+        "01s","09s","05s","04s","11s","03s","07s","02s",
+        "01e","09e","05e","04e","06e","03e","10e","02e",
+        "01m","09m","05m","04m","11m","03m","07m","02m",
+        "01w","09w","12w","04w","11w","03w","10w","02w"
+        // "01s","05s","03s","02s",
+        // "08e","05e","03e","02e",
+        // "01m","04m","03m","02m",
+        // "01w","04w","03w","02w",
+        // "01s","02s",
+        // "08e","02e",
+        // "01m","03m",
+        // "04w","02w",
+        // "02s","02e","01m","02w"
         // "02s","01m","01m"
     ]
 };
@@ -394,14 +460,14 @@ let leviPicks = {
     ]
 };
 
-let players = [calebPicks, susanPicks, dennisPicks, leviPicks, mattPicks, rachelPicks, reedPicks, katiePicks, paigePicks, lukePicks, nickPicks, christinePicks, suzyPicks, noahPicks, hyrumPicks, davidPicks, davePicks, aprilPicks];
+let players = [calebPicks, susanPicks, dennisPicks, leviPicks, mattPicks, rachelPicks, reedPicks, katiePicks, paigePicks, lukePicks, nickPicks, christinePicks, suzyPicks, noahPicks, davidPicks, davePicks, aprilPicks, dawsonPicks];
 
 const participants = 18;
 
 let gm1 = {
     team1:"01s",
     team2:"16s",
-    winner: "01s",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -410,7 +476,7 @@ let gm1 = {
 let gm2 = {
     team1:"08s",
     team2:"09s",
-    winner: "08s",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -419,7 +485,7 @@ let gm2 = {
 let gm3 = {
     team1:"05s",
     team2:"12s",
-    winner: "05s",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -428,7 +494,7 @@ let gm3 = {
 let gm4 = {
     team1:"04s",
     team2:"13s",
-    winner: "13s",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -437,7 +503,7 @@ let gm4 = {
 let gm5 = {
     team1:"06s",
     team2:"11s",
-    winner: "06s",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -446,7 +512,7 @@ let gm5 = {
 let gm6 = {
     team1:"03s",
     team2:"14s",
-    winner: "03s",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -455,7 +521,7 @@ let gm6 = {
 let gm7 = {
     team1:"07s",
     team2:"10s",
-    winner: "07s",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -464,7 +530,7 @@ let gm7 = {
 let gm8 = {
     team1:"02s",
     team2:"15s",
-    winner: "15s",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -473,7 +539,7 @@ let gm8 = {
 let gm9 = {
     team1:"01e",
     team2:"16e",
-    winner: "16e",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -482,7 +548,7 @@ let gm9 = {
 let gm10 = {
     team1:"08e",
     team2:"09e",
-    winner: "09e",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -491,7 +557,7 @@ let gm10 = {
 let gm11 = {
     team1:"05e",
     team2:"12e",
-    winner: "05e",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -500,7 +566,7 @@ let gm11 = {
 let gm12 = {
     team1:"04e",
     team2:"13e",
-    winner: "04e",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -509,7 +575,7 @@ let gm12 = {
 let gm13 = {
     team1:"06e",
     team2:"11e",
-    winner: "06e",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -518,7 +584,7 @@ let gm13 = {
 let gm14 = {
     team1:"03e",
     team2:"14e",
-    winner: "03e",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -527,7 +593,7 @@ let gm14 = {
 let gm15 = {
     team1:"07e",
     team2:"10e",
-    winner: "07e",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -536,7 +602,7 @@ let gm15 = {
 let gm16 = {
     team1:"02e",
     team2:"15e",
-    winner: "02e",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -545,7 +611,7 @@ let gm16 = {
 let gm17 = {
     team1:"01m",
     team2:"16m",
-    winner: "01m",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -554,7 +620,7 @@ let gm17 = {
 let gm18 = {
     team1:"08m",
     team2:"09m",
-    winner: "09m",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -563,7 +629,7 @@ let gm18 = {
 let gm19 = {
     team1:"05m",
     team2:"12m",
-    winner: "05m",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -572,7 +638,7 @@ let gm19 = {
 let gm20 = {
     team1:"04m",
     team2:"13m",
-    winner: "04m",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -581,7 +647,7 @@ let gm20 = {
 let gm21 = {
     team1:"06m",
     team2:"11m",
-    winner: "11m",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -590,7 +656,7 @@ let gm21 = {
 let gm22 = {
     team1:"03m",
     team2:"14m",
-    winner: "03m",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -599,7 +665,7 @@ let gm22 = {
 let gm23 = {
     team1:"07m",
     team2:"10m",
-    winner: "10m",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -608,7 +674,7 @@ let gm23 = {
 let gm24 = {
     team1:"02m",
     team2:"15m",
-    winner: "02m",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -617,7 +683,7 @@ let gm24 = {
 let gm25 = {
     team1:"01w",
     team2:"16w",
-    winner: "01w",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -626,7 +692,7 @@ let gm25 = {
 let gm26 = {
     team1:"08w",
     team2:"09w",
-    winner: "08w",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -635,7 +701,7 @@ let gm26 = {
 let gm27 = {
     team1:"05w",
     team2:"12w",
-    winner: "05w",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -644,7 +710,7 @@ let gm27 = {
 let gm28 = {
     team1:"04w",
     team2:"13w",
-    winner: "04w",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -653,7 +719,7 @@ let gm28 = {
 let gm29 = {
     team1:"06w",
     team2:"11w",
-    winner: "06w",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -662,7 +728,7 @@ let gm29 = {
 let gm30 = {
     team1:"03w",
     team2:"14w",
-    winner: "03w",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -671,7 +737,7 @@ let gm30 = {
 let gm31 = {
     team1:"07w",
     team2:"10w",
-    winner: "07w",
+    winner: "",
     fav:[],
     und:[],
     score:0
@@ -680,273 +746,269 @@ let gm31 = {
 let gm32 = {
     team1:"02w",
     team2:"15w",
-    winner: "02w",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm33 = {
-    team1:"01s",
-    team2:"08s",
-    winner: "01s",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm34 = {
-    team1:"05s",
-    team2:"13s",
-    winner: "05s",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm35 = {
-    team1:"06s",
-    team2:"03s",
-    winner: "06s",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm36 = {
-    team1:"07s",
-    team2:"15s",
-    winner: "15s",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm37 = {
-    team1:"09e",
-    team2:"16e",
-    winner: "09e",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm38 = {
-    team1:"04e",
-    team2:"05e",
-    winner: "04e",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm39 = {
-    team1:"03e",
-    team2:"06e",
-    winner: "03e",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm40 = {
-    team1:"07e",
-    team2:"02e",
-    winner: "07e",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm41 = {
-    team1:"01m",
-    team2:"09m",
-    winner: "01m",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm42 = {
-    team1:"04m",
-    team2:"05m",
-    winner: "05m",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm43 = {
-    team1:"03m",
-    team2:"11m",
-    winner: "03m",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm44 = {
-    team1:"02m",
-    team2:"10m",
-    winner: "02m",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm45 = {
-    team1:"01w",
-    team2:"08w",
-    winner: "08w",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm46 = {
-    team1:"04w",
-    team2:"05w",
-    winner: "04w",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm47 = {
-    team1:"03w",
-    team2:"06w",
-    winner: "03w",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm48 = {
-    team1:"02w",
-    team2:"07w",
-    winner: "02w",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm49 = {
-    team1:"05s",
-    team2:"01s",
-    winner: "05s",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm50 = {
-    team1:"15s",
-    team2:"06s",
-    winner: "06s",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm51 = {
-    team1:"09e",
-    team2:"04e",
-    winner: "09e",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm52 = {
-    team1:"07e",
-    team2:"03e",
-    winner: "03e",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm53 = {
-    team1:"05m",
-    team2:"01m",
-    winner: "05m",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm54 = {
-    team1:"02m",
-    team2:"03m",
-    winner: "02m",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm55 = {
-    team1:"08w",
-    team2:"04w",
-    winner: "04w",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm56 = {
-    team1:"02w",
-    team2:"03w",
-    winner: "03w",
-    fav:[],
-    und:[],
-    score:0
-}
-
-let gm57 = {
-    team1:"05s",
-    team2:"06s",
     winner: "",
     fav:[],
     und:[],
     score:0
 }
 
-let gm58 = {
-    team1:"09e",
-    team2:"03e",
-    winner: "09e",
-    fav:[],
-    und:[],
-    score:0
-}
+// let gm33 = {
+//     team1:"01s",
+//     team2:"08s",
+//     winner: "01s",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
 
-let gm59 = {
-    team1:"02m",
-    team2:"05m",
-    winner: "",
-    fav:[],
-    und:[],
-    score:0
-}
+// let gm34 = {
+//     team1:"05s",
+//     team2:"13s",
+//     winner: "05s",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
 
-let gm60 = {
-    team1:"03w",
-    team2:"04w",
-    winner: "",
-    fav:[],
-    und:[],
-    score:0
-}
+// let gm35 = {
+//     team1:"06s",
+//     team2:"03s",
+//     winner: "06s",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm36 = {
+//     team1:"07s",
+//     team2:"15s",
+//     winner: "15s",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm37 = {
+//     team1:"09e",
+//     team2:"16e",
+//     winner: "09e",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm38 = {
+//     team1:"04e",
+//     team2:"05e",
+//     winner: "04e",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm39 = {
+//     team1:"03e",
+//     team2:"06e",
+//     winner: "03e",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm40 = {
+//     team1:"07e",
+//     team2:"02e",
+//     winner: "07e",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm41 = {
+//     team1:"01m",
+//     team2:"09m",
+//     winner: "01m",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm42 = {
+//     team1:"04m",
+//     team2:"05m",
+//     winner: "05m",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm43 = {
+//     team1:"03m",
+//     team2:"11m",
+//     winner: "03m",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm44 = {
+//     team1:"02m",
+//     team2:"10m",
+//     winner: "02m",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm45 = {
+//     team1:"01w",
+//     team2:"08w",
+//     winner: "08w",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm46 = {
+//     team1:"04w",
+//     team2:"05w",
+//     winner: "04w",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm47 = {
+//     team1:"03w",
+//     team2:"06w",
+//     winner: "03w",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm48 = {
+//     team1:"02w",
+//     team2:"07w",
+//     winner: "02w",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm49 = {
+//     team1:"05s",
+//     team2:"01s",
+//     winner: "05s",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm50 = {
+//     team1:"15s",
+//     team2:"06s",
+//     winner: "06s",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm51 = {
+//     team1:"09e",
+//     team2:"04e",
+//     winner: "09e",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm52 = {
+//     team1:"07e",
+//     team2:"03e",
+//     winner: "03e",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm53 = {
+//     team1:"05m",
+//     team2:"01m",
+//     winner: "05m",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm54 = {
+//     team1:"02m",
+//     team2:"03m",
+//     winner: "02m",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm55 = {
+//     team1:"08w",
+//     team2:"04w",
+//     winner: "04w",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm56 = {
+//     team1:"02w",
+//     team2:"03w",
+//     winner: "03w",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm57 = {
+//     team1:"05s",
+//     team2:"06s",
+//     winner: "",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm58 = {
+//     team1:"09e",
+//     team2:"03e",
+//     winner: "09e",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm59 = {
+//     team1:"02m",
+//     team2:"05m",
+//     winner: "",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
+
+// let gm60 = {
+//     team1:"03w",
+//     team2:"04w",
+//     winner: "",
+//     fav:[],
+//     und:[],
+//     score:0
+// }
 
 let games = [
     gm1,gm2,gm3,gm4,gm5,gm6,gm7,gm8,
     gm9,gm10,gm11,gm12,gm13,gm14,gm15,gm16,
     gm17,gm18,gm19,gm20,gm21,gm22,gm23,gm24,
-    gm25,gm26,gm27,gm28,gm29,gm30,gm31,gm32,
-    gm33,gm34,gm35,gm36,gm37,gm38,gm39,gm40,
-    gm41,gm42,gm43,gm44,gm45,gm46,gm47,gm48,
-    gm49,gm50,gm51,gm52,gm53,gm54,gm55,gm56,
-    gm57,gm58,gm59,gm60
+    gm25,gm26,gm27,gm28,gm29,gm30,gm31,gm32
 ];
 
 for (let i=0; i<players.length; i++) {
