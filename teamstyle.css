@@ -22,6 +22,14 @@
     background-position-y: center;
 }
 
+#WesternKentucky {
+    background-image: url("assets/wku.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #WashingtonSt {
     background-image: url("assets/washingtonst.png");
     background-repeat: no-repeat;
@@ -310,6 +318,14 @@
     background-position-y: center;
 }
 
+#NewMexico {
+    background-image: url("assets/newmexico.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 #ASU {
     background-image: url("assets/asu.png");
     background-repeat: no-repeat;
@@ -320,6 +336,14 @@
 
 #ColoradoSt {
     background-image: url("assets/colost.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Colorado {
+    background-image: url("assets/colo.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -352,6 +376,14 @@
 
 #FAU {
     background-image: url("assets/fau.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Florida {
+    background-image: url("assets/florida.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -400,6 +432,14 @@
 
 #JacksonvilleSt {
     background-image: url("assets/jackst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#JamesMadison {
+    background-image: url("assets/jmu.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -456,6 +496,22 @@
 
 #Wagner {
     background-image: url("assets/wagner.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Grambling {
+    background-image: url("assets/grambling.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#Nebraska {
+    background-image: url("assets/nebraska.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;
@@ -758,6 +814,14 @@
     background-position-y: center;
 }
 
+#Clemson {
+    background-image: url("assets/clemson.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;    
+    background-position-y: center;
+}
+
 #UCLA {
     background-image: url("assets/ucla.png");
     background-repeat: no-repeat;
@@ -776,6 +840,14 @@
 
 #SDSU {
     background-image: url("assets/sdst.png");
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position-x: center;  
+    background-position-y: center;  
+}
+
+#Stetson {
+    background-image: url("assets/stetson.png");
     background-repeat: no-repeat;
     background-size: 130px 130px;
     background-position-x: center;  
