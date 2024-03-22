@@ -44,8 +44,7 @@ main {
     object-fit: cover;
     object-position: center top;
     border: 3px solid rgba(0,0,0,.1);
-    justify-self: start;
-    border: solid 2px white;
+    justify-self: center;
 }
 
 .med-circle {
