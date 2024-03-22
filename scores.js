@@ -22,7 +22,7 @@ let calebPicks = {
 
 let suzyPicks = {
     name: "suzy",
-    medal: "",
+    medal: "gold",
     score: 0,
     picks: [
         "01s","09s","12s","04s","06s","03s","07s","02s",
@@ -44,7 +44,7 @@ let suzyPicks = {
 
 let renPicks = {
     name: "ren",
-    medal: "bronze",
+    medal: "",
     score: 0,
     picks: [
         "01s","08s","05s","13s","06s","14s","07s","02s",
@@ -176,7 +176,7 @@ let davidPicks = {
 
 let jamesPicks = {
     name: "james",
-    medal: "silver",
+    medal: "bronze",
     score: 0,
     picks: [
         "01s","08s","12s","04s","11s","14s","10s","15s",
@@ -198,7 +198,7 @@ let jamesPicks = {
 
 let mabryPicks = {
     name: "mabry",
-    medal: "gold",
+    medal: "silver",
     score: 0,
     picks: [
         "16s","09s","05s","04s","11s","14s","10s","02s",
@@ -685,7 +685,7 @@ let gm19 = {
 let gm20 = {
     team1:"04m",
     team2:"13m",
-    winner: "",
+    winner: "04m",
     fav:[],
     und:[],
     score:0
