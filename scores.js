@@ -721,7 +721,7 @@ let gm23 = {
 let gm24 = {
     team1:"02m",
     team2:"15m",
-    winner: "",
+    winner: "02m",
     fav:[],
     und:[],
     score:0
