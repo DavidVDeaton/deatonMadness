@@ -44,7 +44,7 @@ let suzyPicks = {
 
 let renPicks = {
     name: "ren",
-    medal: "",
+    medal: "bronze",
     score: 0,
     picks: [
         "01s","08s","05s","13s","06s","14s","07s","02s",
@@ -286,7 +286,7 @@ let katiePicks = {
 
 let mattPicks = {
     name: "matt",
-    medal: "bronze",
+    medal: "",
     score: 0,
     picks: [
         "01s","09s","12s","04s","11s","03s","10s","02s",
