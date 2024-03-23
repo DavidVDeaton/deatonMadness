@@ -264,7 +264,7 @@ let davePicks = {
 
 let katiePicks = {
     name: "katie",
-    medal: "silver",
+    medal: "gold",
     score: 0,
     picks: [
         "01s","09s","05s","04s","06s","03s","07s","02s",
@@ -286,7 +286,7 @@ let katiePicks = {
 
 let mattPicks = {
     name: "matt",
-    medal: "gold",
+    medal: "silver",
     score: 0,
     picks: [
         "01s","09s","12s","04s","11s","03s","10s","02s",
@@ -883,7 +883,7 @@ let gm41 = {
 let gm42 = {
     team1:gm19.winner,
     team2:gm20.winner,
-    winner: "",
+    winner: "05m",
     fav:[],
     und:[],
     score:0
