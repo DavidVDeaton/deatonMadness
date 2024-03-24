@@ -829,7 +829,7 @@ let gm35 = {
 let gm36 = {
     team1:gm7.winner,
     team2:gm8.winner,
-    winner: "",
+    winner: "02s",
     fav:[],
     und:[],
     score:0
@@ -1062,18 +1062,46 @@ let games = [
 
 for (let i=0; i<players.length; i++) {
     for (let j=0; j<games.length; j++) {
-        console.log(games[j].team1);
         if (players[i].picks[j] === games[j].team1) {
-            games[j].fav.push(players[i]);
+            games[j].fav.push(players[i].name);
         } else if (players[i].picks[j] === games[j].team2) {
-            games[j].und.push(players[i]);
+            games[j].und.push(players[i].name);
         }
     }
 }
 
+
+
+// for (let j=0; j<games.length; j++) {
+//     let teamAID = games[j].team1;
+//     let teamBID = games[j].team2;
+//     let teamA = teamAID.charAt(0) + teamAID.charAt(1);
+//     let teamB = teamBID.charAt(0) + teamBID.charAt(1);
+//     console.log(teamA, teamB);
+//     if (teamA < teamB) {
+//         for (let i=0; i<games[j].fav.length; i++) {
+//             $("#" + teamAID).addClass(games[j].fav[i]);
+//         }
+//     } else {
+//         for (let i=0; i<games[j].fav.length; i++) {
+//             $("#" + teamAID).addClass(games[j].fav[i]);
+//         }
+//     }
+// }
+
 // Scores Set to Game
 
 for (let j=0; j<48; j++) {
+    console.log(j, "FAV:" + games[j].team1 + games[j].fav, "UND:" + games[j].team2 + games[j].und);
+
+    for (let i=0; i<games[j].fav.length; i++) {
+        $("#gm" + (j+1) + games[j].team1).addClass(games[j].fav[i]);
+    }
+
+    for (let i=0; i<games[j].und.length; i++) {
+        $("#gm" + (j+1) + games[j].team2).addClass(games[j].und[i]);
+    }
+
     if (games[j].winner === games[j].team1) {
         games[j].score = (participants/games[j].fav.length);
     } else if (games[j].winner === games[j].team2) {
