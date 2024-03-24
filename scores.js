@@ -874,7 +874,7 @@ let gm40 = {
 let gm41 = {
     team1:gm17.winner,
     team2:gm18.winner,
-    winner: "",
+    winner: "01m",
     fav:[],
     und:[],
     score:0
