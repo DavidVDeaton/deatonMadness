@@ -132,7 +132,7 @@ let paigePicks = {
 
 let noahPicks = {
     name: "noah",
-    medal: "silver",
+    medal: "bronze",
     score: 0,
     picks: [
         "01s","09s","05s","04s","06s","03s","07s","02s",
@@ -286,7 +286,7 @@ let katiePicks = {
 
 let mattPicks = {
     name: "matt",
-    medal: "bronze",
+    medal: "silver",
     score: 0,
     picks: [
         "01s","09s","12s","04s","11s","03s","10s","02s",
@@ -811,7 +811,7 @@ let gm33 = {
 let gm34 = {
     team1:gm3.winner,
     team2:gm4.winner,
-    winner: "",
+    winner: "04s",
     fav:[],
     und:[],
     score:0
