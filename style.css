@@ -92,7 +92,7 @@ h3 {
 }
 
 .hidden {
-    display: block;
+    display: none;
 }
 
 .gm {
